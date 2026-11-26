@@ -1,36 +1,57 @@
 .ritual {
   color: var(--paper);
-  background: #1b1410;
-  background: radial-gradient(ellipse at 79% 49%, #4c291b 0, #2d1d16 35%, #1b1410 72%);
+  background: #1b1512;
+  background: radial-gradient(ellipse at 74% 45%, #3a261d 0%, #251a15 44%, #1b1512 79%);
 }
 .ritual-panel {
-  min-height: min(46rem, 95svh);
+  min-height: min(39rem, 84svh);
   display: grid;
-  grid-template-columns: minmax(16rem, .65fr) minmax(0, 1.35fr);
-  gap: clamp(1rem, 2.8vw, 3rem);
   align-items: center;
-  padding-block: clamp(2.5rem, 6vw, 6rem);
+  padding-block: clamp(2.25rem, 5vw, 5.5rem);
 }
-.ritual.is-enhanced .ritual-track { min-height: calc(100svh + clamp(18rem, 62svh, 37rem)); }
-.ritual.is-enhanced .ritual-panel { position: sticky; top: 0; min-height: 100svh; padding-block: 1.5rem; }
+.ritual.is-enhanced .ritual-track {
+  min-height: calc(100svh + clamp(18rem, 59svh, 36rem));
+}
+.ritual.is-enhanced .ritual-panel {
+  position: sticky;
+  top: 0;
+  min-height: 100svh;
+  padding-block: 1rem;
+}
+.ritual-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(14.5rem, .75fr) minmax(0, 1.25fr);
+  align-items: center;
+  column-gap: clamp(.25rem, 1.7vw, 2rem);
+  padding: clamp(1.65rem, 3.65vw, 4.5rem);
+  border: 1px solid #95634752;
+  border-radius: clamp(1rem, 2.45vw, 2rem);
+  background: radial-gradient(ellipse at 74% 41%, #744025 0%, #502e20 24%, #352119 45%, transparent 69%),
+    linear-gradient(135deg, #2c211a, #231713 72%);
+}
 .ritual-copy { position: relative; z-index: 1; }
-.ritual-copy h2 { font-size: clamp(2.7rem, 5.6vw, 6rem); }
-.ritual-copy p { color: var(--soft); margin-top: .9rem; }
-.ritual-controls { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1.2rem; }
-.ritual-controls button {
-  border: 1px solid #946c55;
-  border-radius: .65rem;
-  min-height: 2.75rem;
-  padding: .45rem .8rem;
-  color: var(--paper);
-  background: #302018;
-  font-size: .875rem;
-  font-weight: 720;
+.ritual-copy h2 {
+  font-size: clamp(2.5rem, 4.8vw, 5.35rem);
+  letter-spacing: -.055em;
+  word-spacing: .04em;
+  line-height: 1.01;
 }
-.ritual-controls button:hover { border-color: var(--amber); }
-.ritual-controls button[aria-pressed="true"] { color: var(--ink); background: var(--amber); border-color: var(--amber); }
-.ritual-skip { font-size: .88rem; margin-top: .75rem; }
-.ritual-skip:hover { color: var(--amber); }
+.ritual-instruction {
+  margin-top: 1.15rem;
+  color: var(--soft);
+}
+.ritual-skip {
+  font-size: .9rem;
+  margin-top: .75rem;
+  text-decoration-color: #d1ab8d83;
+}
+.ritual-skip:hover {
+  color: var(--amber);
+  text-decoration-color: currentColor;
+}
 .ritual-visual {
   position: relative;
   width: 100%;
@@ -43,20 +64,37 @@
   height: 100%;
 }
 .ritual-poster { object-fit: contain; }
+.ritual-progress {
+  grid-column: 1 / -1;
+  height: 2px;
+  margin-top: clamp(1rem, 2vw, 2.25rem);
+  background: #ad765540;
+  overflow: hidden;
+  border-radius: 1px;
+}
+.ritual-progress span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #c56e38, #efb044);
+  transform: scaleX(var(--ritual-progress, 0));
+  transform-origin: left;
+}
 .tea-story .story-copy h2 { margin-top: 0; }
 
-@media (max-width: 760px) {
-  .ritual-panel { min-height: auto; grid-template-columns: 1fr; gap: .5rem; }
-  .ritual.is-enhanced .ritual-panel { align-content: center; padding-block: 1.5rem; }
-  .ritual-copy h2 { font-size: clamp(2.35rem, 7.7vw, 3.75rem); }
-  .ritual-copy p { margin-top: .55rem; }
-  .ritual-controls { margin-top: .75rem; }
-  .ritual-skip { margin-top: .3rem; }
-  .ritual-visual { aspect-ratio: 1.25; }
+@media (max-width: 700px) {
+  .ritual-panel { min-height: auto; }
+  .ritual-card { grid-template-columns: 1fr; padding: clamp(1.25rem, 5vw, 2.2rem); }
+  .ritual-copy h2 { font-size: clamp(2.2rem, 7.2vw, 3.75rem); }
+  .ritual-instruction { margin-top: .75rem; }
+  .ritual-skip { margin-top: .25rem; }
+  .ritual-visual { aspect-ratio: 1.36; }
+  .ritual-card {
+    background: radial-gradient(ellipse at 57% 72%, #6d3d26, #462b20 30%, transparent 70%), #2b2019;
+  }
 }
 @media (max-height: 580px) and (orientation: landscape) {
-  .ritual.is-enhanced .ritual-panel { grid-template-columns: minmax(14rem, .8fr) minmax(0, 1.2fr); }
-  .ritual-visual { max-height: 78svh; }
+  .ritual-card { grid-template-columns: minmax(12rem, .75fr) minmax(0, 1.25fr); padding: 1.15rem; }
+  .ritual-visual { max-height: 67svh; }
 }
 @media (prefers-reduced-motion: reduce) {
   .ritual.is-enhanced .ritual-track { min-height: auto; }

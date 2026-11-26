@@ -1,3 +1,4 @@
+import { observeFlow } from './flow.js';
 import { asset, itemName, loadMenu, portionText, priceText } from './menu-data.js';
 
 const tabs = [...document.querySelectorAll('.menu-tabs a')];
@@ -131,6 +132,7 @@ function render() {
   for (const section of visible) {
     const heading = element('section', '', 'menu-section');
     heading.id = section.id;
+    heading.setAttribute('data-flow', '');
     heading.append(element('h2', section.label));
     const list = element('ul', '', 'dish-list');
     list.append(...section.items.map(dishRow));
@@ -142,6 +144,7 @@ function render() {
     optionsFragment.append(new Option(section.label, section.id));
   }
   results.replaceChildren(sectionsFragment);
+  observeFlow(results, { animateVisible: false });
   links.replaceChildren(linksFragment);
   select.replaceChildren(new Option('Выбрать подраздел', ''), optionsFragment);
   index.hidden = visible.length < 2;

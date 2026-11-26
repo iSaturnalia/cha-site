@@ -5,9 +5,7 @@ const visual = section.querySelector('.ritual-visual');
 const canvas = section.querySelector('.ritual-canvas');
 const poster = section.querySelector('.ritual-poster');
 const instruction = section.querySelector('.ritual-instruction');
-const fallbackCopy = section.querySelector('.ritual-fallback-copy');
-const controls = section.querySelector('.ritual-controls');
-const buttons = [...controls.querySelectorAll('button')];
+const progressBar = section.querySelector('.ritual-progress');
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 
 const clamp = (value) => Math.min(1, Math.max(0, value));
@@ -17,16 +15,12 @@ let onScreen = false;
 let pendingFrame = 0;
 let lastProgress = -1;
 let lastTime = 0;
-let activeButton = buttons[0];
-
-function distance() {
-  return Math.max(1, track.clientHeight - panel.offsetHeight);
-}
 
 function frame(time) {
   pendingFrame = 0;
   if (!onScreen || !model || reducedMotion.matches) return;
-  const target = clamp(-track.getBoundingClientRect().top / distance());
+  const distance = Math.max(1, track.clientHeight - panel.offsetHeight);
+  const target = clamp(-track.getBoundingClientRect().top / distance);
   const delta = Math.min(48, time - (lastTime || time - 16));
   const weight = 1 - Math.exp(-delta / 58);
   const progress = lastProgress < 0 || Math.abs(target - lastProgress) < 0.002
@@ -34,14 +28,10 @@ function frame(time) {
   if (progress !== lastProgress) {
     lastProgress = progress;
     model.render(progress);
+    progressBar.style.setProperty('--ritual-progress', String(progress));
   }
   lastTime = progress === target ? 0 : time;
   if (progress !== target) schedule();
-  const stage = buttons[progress < 0.36 ? 0 : progress < 0.8 ? 1 : 2];
-  if (stage === activeButton) return;
-  activeButton?.setAttribute('aria-pressed', 'false');
-  stage.setAttribute('aria-pressed', 'true');
-  activeButton = stage;
 }
 
 function schedule() {
@@ -61,9 +51,8 @@ function setEnhanced(enhanced) {
   section.classList.toggle('is-enhanced', enhanced);
   canvas.hidden = !enhanced;
   poster.hidden = enhanced;
-  fallbackCopy.hidden = enhanced;
   instruction.hidden = !enhanced;
-  controls.hidden = !enhanced;
+  progressBar.hidden = !enhanced;
   if (enhanced) resize();
 }
 
@@ -94,12 +83,6 @@ new IntersectionObserver(([entry]) => {
 
 new ResizeObserver(resize).observe(visual);
 window.addEventListener('scroll', schedule, { passive: true });
-for (const button of buttons) {
-  button.addEventListener('click', () => {
-    const top = window.scrollY + track.getBoundingClientRect().top;
-    window.scrollTo({ top: top + distance() * Number(button.dataset.progress), behavior: 'smooth' });
-  });
-}
 reducedMotion.addEventListener('change', () => {
   if (reducedMotion.matches) setEnhanced(false);
   else if (model) setEnhanced(true);
