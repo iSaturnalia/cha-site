@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Меню чайной «Ча» в Астрахани. Китайский чай, паназиатская кухня, напитки и десерты.">
+  <meta name="theme-color" content="#1b1715">
+  <title>Меню — Чайная «Ча»</title>
+  <link rel="icon" href="../assets/icon.png">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../menu.js" type="module"></script>
+</head>
+<body class="catalog">
+  <a class="skip" href="#main">К содержанию</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../" aria-label="Чайная Ча, главная"><span>Ча<span class="brand-dot">.</span></span><small>ЧАЙНАЯ<br>АСТРАХАНЬ</small></a>
+      <nav aria-label="Основная навигация"><a href="./" aria-current="page">Меню</a><a href="../#tea">Чайные церемонии</a><a href="../#visit">Как найти</a></nav>
+      <a class="button button-outline header-book" href="tel:+78512298686">Позвонить</a>
+    </div>
+  </header>
+  <main id="main">
+    <div class="menu-intro wrap">
+      <p class="kicker">Чайная «Ча»</p>
+      <h1>Меню</h1>
+      <form class="search-form" role="search">
+        <label for="search">Поиск по меню</label>
+        <div class="search-box">
+          <input type="search" id="search" name="q" placeholder="Название или ингредиент" autocomplete="off">
+          <button type="button" class="clear-search" hidden>Очистить</button>
+        </div>
+      </form>
+    </div>
+    <div class="menu-nav">
+      <div class="wrap" id="menu-nav-inner">
+        <nav class="menu-tabs" aria-label="Разделы меню">
+          <a href="?section=kitchen" data-group="kitchen">Кухня</a><a href="?section=tea" data-group="tea">Китайский чай</a><a href="?section=drinks" data-group="drinks">Напитки</a><a href="?section=desserts" data-group="desserts">Десерты</a>
+        </nav>
+      </div>
+    </div>
+    <div class="wrap catalog-body">
+      <aside class="section-index" aria-label="Подразделы меню" hidden>
+        <label for="jump-select">Подраздел</label>
+        <select id="jump-select"><option value="">Выбрать подраздел</option></select>
+        <nav id="section-links" aria-label="Подразделы меню"></nav>
+      </aside>
+      <div class="catalog-content">
+        <p class="menu-status" role="status" aria-live="polite">Загружаем меню…</p>
+        <div id="menu-results"></div>
+        <noscript><p><a href="https://cha-astra.ru/cha_astr">Открыть меню чайной</a></p></noscript>
+      </div>
+    </div>
+  </main>
+  <footer class="catalog-footer">
+    <div class="wrap footer-inner">
+      <div><strong>Чайная «Ча»</strong><p>Ульяновых, 1 · 10:00–02:00</p></div>
+      <div class="actions"><a class="button button-amber" href="tel:+78512298686">Позвонить</a><a class="button button-outline" href="https://2gis.ru/astrakhan/directions/points/%7C48.033896%2C46.354485%3B70000001048365224" target="_blank" rel="noopener">Маршрут в 2ГИС</a></div>
+    </div>
+  </footer>
+  <dialog id="dish-dialog" aria-labelledby="dish-title">
+    <div class="dish-detail">
+      <form method="dialog"><button class="close-dialog" aria-label="Закрыть карточку" autofocus>×</button></form>
+      <div id="dish-picture"></div>
+      <div class="dish-copy">
+        <p class="kicker" id="dish-category"></p>
+        <h2 id="dish-title"></h2>
+        <p id="dish-description"></p>
+        <p id="dish-portion"></p>
+        <p id="dish-price"></p>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>

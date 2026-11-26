@@ -1,0 +1,2943 @@
+{
+  "source": "https://cha-astra.ru/cha_astr",
+  "snapshot_date": "2026-11-26",
+  "sections": [
+    {
+      "name": "ВКУС АЗИИ ❤️ / Основной курс",
+      "items": [
+        {
+          "id": 1,
+          "name": "Пибимпап с копчёной курицей",
+          "prices_rub": [
+            470
+          ],
+          "description": "Копчёная курица, маринованный редис, овощи, морковь по-корейски, яйцо, рис, шиитаке, острый соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 1,
+            "source_url": "https://static.tildacdn.com/tild3866-3336-4464-b033-636338653364/NZ5_2527_1.jpg",
+            "quality": "site_render",
+            "file": "photos/001.webp"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Пибимпап с тигровой креветкой",
+          "prices_rub": [
+            540
+          ],
+          "description": "Тигровая креветка, маринованный редис, помидор черри, огурец, морковь по-корейски, яйцо, рис, шиитаке, унаги, кунжут, острый соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 2,
+            "source_url": "https://static.tildacdn.com/tild3834-6439-4535-a133-323335663238/NZ5_0911_1.webp",
+            "quality": "site_render",
+            "file": "photos/002.webp"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Пибимпап с говядиной",
+          "prices_rub": [
+            590
+          ],
+          "description": "Говядина, маринованный редис, помидор черри, огурец, морковь по-корейски, яйцо, рис, шиитаке, унаги, кунжут, острый соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 3,
+            "source_url": "https://static.tildacdn.com/tild6566-3635-4035-b432-326132393337/NZ5_0873_1.webp",
+            "quality": "site_render",
+            "file": "photos/003.webp"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Корейский чикен с рисом в кисло-сладком соусе",
+          "prices_rub": [
+            470
+          ],
+          "description": "Цыплёнок в глазури, рис, кисло-сладкий соус, зелёный лук, кунжут",
+          "portion": null,
+          "photo": {
+            "photo_id": 4,
+            "source_url": "https://static.tildacdn.com/tild3562-3437-4136-b738-663163343763/NZ5_0715_1.webp",
+            "quality": "site_render",
+            "file": "photos/004.webp"
+          }
+        },
+        {
+          "id": 5,
+          "name": "Сырный Ттокпокки с курицей",
+          "prices_rub": [
+            580
+          ],
+          "description": "Каррэтоки из рисовой муки, курица, сырный соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 5,
+            "source_url": "https://static.tildacdn.com/tild3634-3131-4631-a464-326163323438/noroot_1.webp",
+            "quality": "site_render",
+            "file": "photos/005.webp"
+          }
+        },
+        {
+          "id": 6,
+          "name": "Токпоки с цыпленком",
+          "prices_rub": [
+            540
+          ],
+          "description": "Каррэтоки из рисовой муки, цыплёнок, овощи, соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 6,
+            "source_url": "https://static.tildacdn.com/tila3834-3464-4264-a131-333266373331/_2026-11-16_16262707.png",
+            "quality": "site_render",
+            "file": "photos/006.webp"
+          }
+        },
+        {
+          "id": 7,
+          "name": "Классический Ттокпокки с креветками",
+          "prices_rub": [
+            610
+          ],
+          "description": "Каррэтоки из рисовой муки, креветки, острый соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 7,
+            "source_url": "https://static.tildacdn.com/tild3834-3830-4765-a436-626133346633/noroot_2_1.webp",
+            "quality": "site_render",
+            "file": "photos/007.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ВКУС АЗИИ ❤️ / Супы",
+      "items": [
+        {
+          "id": 8,
+          "name": "Чиз рамён",
+          "prices_rub": [
+            590
+          ],
+          "description": "Сырный бульон, лапша, цыплёнок, эноки, кукуруза, зелёный лук, кунжут, маринованное яйцо",
+          "portion": null,
+          "photo": {
+            "photo_id": 8,
+            "source_url": "https://static.tildacdn.com/tild6266-6132-4765-b035-363431343535/NZ5_2631_1.webp",
+            "quality": "site_render",
+            "file": "photos/008.webp"
+          }
+        },
+        {
+          "id": 9,
+          "name": "Кукси",
+          "prices_rub": [
+            440
+          ],
+          "description": "Тонкая лапша, курица, омлет, свежие овощи, куриный бульон, кинза",
+          "portion": null,
+          "photo": {
+            "photo_id": 9,
+            "source_url": "https://static.tildacdn.com/tild6339-6337-4532-a463-343862616166/DSC08618jpg_1_1.webp",
+            "quality": "site_render",
+            "file": "photos/009.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ВКУС АЗИИ ❤️ / Закуски",
+      "items": [
+        {
+          "id": 10,
+          "name": "Сырный корн-дог",
+          "prices_rub": [
+            270
+          ],
+          "description": "Сыр в хрустящей панировке, сырный соус, розовая горчица",
+          "portion": null,
+          "photo": {
+            "photo_id": 10,
+            "source_url": "https://static.tildacdn.com/tild3363-3462-4038-a239-653734653334/NZ5_0852_1.webp",
+            "quality": "site_render",
+            "file": "photos/010.webp"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Корн-дог фри",
+          "prices_rub": [
+            290
+          ],
+          "description": "Говяжья сосиска, кетчуп, сыр, панировка из картофеля фри, соус на выбор, розовая горчица",
+          "portion": null,
+          "photo": {
+            "photo_id": 11,
+            "source_url": "https://static.tildacdn.com/tild3137-6639-4165-b233-636437626639/NZ5_2484_1.webp",
+            "quality": "site_render",
+            "file": "photos/011.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ВКУС АЗИИ ❤️ / Десерты",
+      "items": [
+        {
+          "id": 12,
+          "name": "Панна-котик клубничный",
+          "prices_rub": [
+            360
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 12,
+            "source_url": "https://static.tildacdn.com/tild6332-3062-4437-a335-653462303237/IMG_5005_1_1.webp",
+            "quality": "site_render",
+            "file": "photos/012.webp"
+          }
+        },
+        {
+          "id": 13,
+          "name": "Панна-котик шоколадный",
+          "prices_rub": [
+            360
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 13,
+            "source_url": "https://static.tildacdn.com/tild3762-3333-4262-b861-353664626133/IMG_5012_1.webp",
+            "quality": "site_render",
+            "file": "photos/013.webp"
+          }
+        },
+        {
+          "id": 14,
+          "name": "Панна-котик маракуйя",
+          "prices_rub": [
+            360
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 14,
+            "source_url": "https://static.tildacdn.com/tild6563-3035-4331-b262-306238653139/IMG_5027_2_1.webp",
+            "quality": "site_render",
+            "file": "photos/014.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ВКУС АЗИИ ❤️ / Bubble tea",
+      "items": [
+        {
+          "id": 15,
+          "name": "Opeo",
+          "prices_rub": [
+            450
+          ],
+          "description": "Печенье орео, молоко, тапиока, карамельный сироп",
+          "portion": null,
+          "photo": {
+            "photo_id": 15,
+            "source_url": "https://static.tildacdn.com/tila3735-3761-4037-b337-303133303837/IMG_7145.JPG",
+            "quality": "site_render",
+            "file": "photos/015.webp"
+          }
+        },
+        {
+          "id": 16,
+          "name": "Клубничный",
+          "prices_rub": [
+            460
+          ],
+          "description": "Пюре клубники, молоко, тапиока, зелёный китайский чай",
+          "portion": null,
+          "photo": {
+            "photo_id": 16,
+            "source_url": "https://static.tildacdn.com/tila3531-3933-4766-b862-373664303636/IMG_0178.JPG",
+            "quality": "site_render",
+            "file": "photos/016.webp"
+          }
+        },
+        {
+          "id": 17,
+          "name": "Вишня-малина",
+          "prices_rub": [
+            480
+          ],
+          "description": "Вишнёвый сок, тапиока, пюре малины, молоко",
+          "portion": null,
+          "photo": {
+            "photo_id": 17,
+            "source_url": "https://static.tildacdn.com/tila3239-3563-4162-a264-376237333966/IMG_0185.JPG",
+            "quality": "site_render",
+            "file": "photos/017.webp"
+          }
+        },
+        {
+          "id": 18,
+          "name": "Персиковый",
+          "prices_rub": [
+            390
+          ],
+          "description": "Зелёный чай, тапиока, персиковое пюре, мёд",
+          "portion": null,
+          "photo": {
+            "photo_id": 18,
+            "source_url": "https://static.tildacdn.com/tila3866-6539-4736-b134-383131343132/IMG_0144.JPG",
+            "quality": "site_render",
+            "file": "photos/018.webp"
+          }
+        },
+        {
+          "id": 19,
+          "name": "Гранатовый",
+          "prices_rub": [
+            480
+          ],
+          "description": "Гранатовый сок, китайский чай, тапиока, сироп лесного ореха",
+          "portion": null,
+          "photo": {
+            "photo_id": 19,
+            "source_url": "https://static.tildacdn.com/tila6462-3661-4138-a331-663237336135/IMG_0125.JPG",
+            "quality": "site_render",
+            "file": "photos/019.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ВКУС АЗИИ ❤️ / смузи",
+      "items": [
+        {
+          "id": 20,
+          "name": "Клубника - Киви",
+          "prices_rub": [
+            365
+          ],
+          "description": "Киви, клубника, апельсиновый фреш",
+          "portion": null,
+          "photo": {
+            "photo_id": 20,
+            "source_url": "https://static.tildacdn.com/tila3463-3136-4535-b031-663331343265/_.JPG",
+            "quality": "thumbnail",
+            "file": "photos/020.JPG"
+          }
+        },
+        {
+          "id": 21,
+          "name": "Клубника - Базлик",
+          "prices_rub": [
+            365
+          ],
+          "description": "Клубника, клубничное конфи, томаты, базилик",
+          "portion": null,
+          "photo": {
+            "photo_id": 21,
+            "source_url": "https://static.tildacdn.com/tila3737-6361-4535-b064-653861313732/_.JPG",
+            "quality": "site_render",
+            "file": "photos/021.webp"
+          }
+        },
+        {
+          "id": 22,
+          "name": "Малина - Банан",
+          "prices_rub": [
+            365
+          ],
+          "description": "Кефир, банан, малиновое пюре, сироп топинамбура",
+          "portion": null,
+          "photo": {
+            "photo_id": 22,
+            "source_url": "https://static.tildacdn.com/tila6637-3035-4264-a531-383436333330/_.JPG",
+            "quality": "site_render",
+            "file": "photos/022.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ВКУС АЗИИ ❤️ / корейские комбо",
+      "items": [
+        {
+          "id": 23,
+          "name": "hot combo",
+          "prices_rub": [
+            1190
+          ],
+          "description": "Корейский чикен, острые токпокки, персиковый bubble tea",
+          "portion": null,
+          "photo": {
+            "photo_id": 23,
+            "source_url": "https://static.tildacdn.com/tild3731-6163-4463-a637-386132353661/af1a5ab4-165e-4e10-8.webp",
+            "quality": "site_render",
+            "file": "photos/023.webp"
+          }
+        },
+        {
+          "id": 24,
+          "name": "seoul combo",
+          "prices_rub": [
+            950
+          ],
+          "description": "Кукси, корн-дог фри, bubble tea орео",
+          "portion": null,
+          "photo": {
+            "photo_id": 24,
+            "source_url": "https://static.tildacdn.com/tild6535-3334-4136-a332-323563303835/d2fa7714-bf54-457b-a.webp",
+            "quality": "site_render",
+            "file": "photos/024.webp"
+          }
+        },
+        {
+          "id": 25,
+          "name": "balance combo",
+          "prices_rub": [
+            990
+          ],
+          "description": "Пибимпап с копчёным цыплёнком, кимбап с тигровой креветкой темпура, гранатовый bubble tea",
+          "portion": null,
+          "photo": {
+            "photo_id": 25,
+            "source_url": "https://static.tildacdn.com/tild6232-3635-4533-a365-653238646363/adee63d7-9f24-4f5c-9.webp",
+            "quality": "site_render",
+            "file": "photos/025.webp"
+          }
+        },
+        {
+          "id": 26,
+          "name": "cheese combo",
+          "prices_rub": [
+            1040
+          ],
+          "description": "Чиз рамен, сырный корн-дог, bubble tea вишня-малина",
+          "portion": null,
+          "photo": {
+            "photo_id": 26,
+            "source_url": "https://static.tildacdn.com/tild6435-3139-4431-b734-613034613731/5c660d90-2034-43f8-9.webp",
+            "quality": "site_render",
+            "file": "photos/026.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Сеты ⭐",
+      "items": [
+        {
+          "id": 27,
+          "name": "Сет S",
+          "prices_rub": [
+            1980
+          ],
+          "description": "Филадельфия Ча, Цезарь с курицей, Калифорния с креветкой, Токио",
+          "portion": "34 штуки / 1,3 кг",
+          "photo": {
+            "photo_id": 27,
+            "source_url": "https://static.tildacdn.com/tild3131-6665-4137-a533-613930636366/IMG_9680_1.webp",
+            "quality": "site_render",
+            "file": "photos/027.webp"
+          }
+        },
+        {
+          "id": 28,
+          "name": "Сет M",
+          "prices_rub": [
+            2440
+          ],
+          "description": "Узумаки, Йонака с копчёной курицей, Филадельфия Ча, Цезарь с курицей, Калифорния с креветкой, Токио запечённый с курицей",
+          "portion": "50 штук / 1,9 кг",
+          "photo": {
+            "photo_id": 28,
+            "source_url": "https://static.tildacdn.com/tild3439-3764-4466-b562-383966626563/IMG_9674_1_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/028.webp"
+          }
+        },
+        {
+          "id": 29,
+          "name": "сет L",
+          "prices_rub": [
+            3440
+          ],
+          "description": "Филадельфия Ча, Йонака с копчёной курицей, Цезарь с курицей, Калифорния с креветкой, Токио запечённый с курицей, Калифорния с лососем, Узумаки запечённый с курицей и угрём, Горячий шик",
+          "portion": "68 штук / 2,5 кг",
+          "photo": {
+            "photo_id": 29,
+            "source_url": "https://static.tildacdn.com/tild3733-3433-4138-b731-383834613939/izv2bcgwsMNreCBLWmDW.webp",
+            "quality": "site_render",
+            "file": "photos/029.webp"
+          }
+        },
+        {
+          "id": 30,
+          "name": "Жареный сет",
+          "prices_rub": [
+            1530
+          ],
+          "description": "Горячий шик, Цезарь с креветкой, Цезарь с курицей",
+          "portion": "30 штук / 1,2 кг",
+          "photo": {
+            "photo_id": 30,
+            "source_url": "https://static.tildacdn.com/tild6635-3263-4035-a132-313061376161/IMG_9663_1_1.webp",
+            "quality": "site_render",
+            "file": "photos/030.webp"
+          }
+        },
+        {
+          "id": 31,
+          "name": "Классический сет",
+          "prices_rub": [
+            1300
+          ],
+          "description": "Калифорния с креветкой, Осака, Филадельфия мини",
+          "portion": "24 штуки / 800 г",
+          "photo": {
+            "photo_id": 31,
+            "source_url": "https://static.tildacdn.com/tild3738-3663-4139-b566-366132366563/IMG_9665_1.webp",
+            "quality": "site_render",
+            "file": "photos/031.webp"
+          }
+        },
+        {
+          "id": 32,
+          "name": "Сет для беременных",
+          "prices_rub": [
+            1380
+          ],
+          "description": "Цезарь с креветкой, Цезарь с курицей, Йонака",
+          "portion": "28 штук / 1,1 кг",
+          "photo": {
+            "photo_id": 32,
+            "source_url": "https://static.tildacdn.com/tild3131-3265-4536-a238-386233323064/IMG_9661_1_1.webp",
+            "quality": "site_render",
+            "file": "photos/032.webp"
+          }
+        },
+        {
+          "id": 33,
+          "name": "Дагестанский сет",
+          "prices_rub": [
+            3290
+          ],
+          "description": "Горячий шик, ойси, Филадельфия Ча, Цезарь с креветкой, Цезарь с курицей, Хоккайдо",
+          "portion": "54 штуки / 2,1 кг",
+          "photo": {
+            "photo_id": 33,
+            "source_url": "https://static.tildacdn.com/tild3265-3637-4463-b337-326466666433/IMG_9657_2_1_1.webp",
+            "quality": "site_render",
+            "file": "photos/033.webp"
+          }
+        },
+        {
+          "id": 34,
+          "name": "Семейный сет",
+          "prices_rub": [
+            2890
+          ],
+          "description": "Бешеный лосось, Ойси, Калифорния с креветкой, Томаму с тунцом, Киото, Осака",
+          "portion": "48 штук / 1,8 кг",
+          "photo": {
+            "photo_id": 34,
+            "source_url": "https://static.tildacdn.com/tild3031-3533-4361-a166-396264616633/IMG_9669_1_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/034.webp"
+          }
+        },
+        {
+          "id": 35,
+          "name": "Запеченный сет",
+          "prices_rub": [
+            1810
+          ],
+          "description": "Хоккайдо, Токио, Узумаки, Хигаси",
+          "portion": "32 штуки / 1,4 кг",
+          "photo": {
+            "photo_id": 35,
+            "source_url": "https://static.tildacdn.com/tild3638-6164-4463-b530-336565653063/DSC05178_1_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/035.webp"
+          }
+        },
+        {
+          "id": 36,
+          "name": "Корейский сет",
+          "prices_rub": [
+            970
+          ],
+          "description": "Кимпаб с креветкой, кимпаб с овощами, кимпаб с курицей",
+          "portion": "30 штук / 750 г",
+          "photo": {
+            "photo_id": 36,
+            "source_url": "https://static.tildacdn.com/tild6266-3634-4238-a532-323161336266/IMG_9668_1_1.webp",
+            "quality": "site_render",
+            "file": "photos/036.webp"
+          }
+        }
+      ],
+      "section_images": [
+        {
+          "photo_id": 37,
+          "source_url": "https://static.tildacdn.com/tild3461-6436-4761-a166-363361663639/IMG_9679_1_1.webp",
+          "quality": "source_link_only",
+          "file": null
+        },
+        {
+          "photo_id": 38,
+          "source_url": "https://static.tildacdn.com/tild6134-3837-4965-b038-303037306661/UPYMWQchj8DB2MG2Ikgn.webp",
+          "quality": "source_link_only",
+          "file": null
+        },
+        {
+          "photo_id": 39,
+          "source_url": "https://static.tildacdn.com/tild6334-6266-4032-b133-343331643561/IMG_9673_1_1.webp",
+          "quality": "source_link_only",
+          "file": null
+        },
+        {
+          "photo_id": 40,
+          "source_url": "https://static.tildacdn.com/tild6638-3765-4230-b663-663935363131/IMG_9662_1.webp",
+          "quality": "source_link_only",
+          "file": null
+        },
+        {
+          "photo_id": 41,
+          "source_url": "https://static.tildacdn.com/tild6630-6437-4234-a236-306435323039/IMG_9671_1_1.webp",
+          "quality": "source_link_only",
+          "file": null
+        },
+        {
+          "photo_id": 42,
+          "source_url": "https://static.tildacdn.com/tild6638-6338-4630-b661-643064653565/IMG_9658_1_1.webp",
+          "quality": "source_link_only",
+          "file": null
+        },
+        {
+          "photo_id": 43,
+          "source_url": "https://static.tildacdn.com/tild3662-3761-4361-b363-623935653531/IMG_9670_1_1.webp",
+          "quality": "source_link_only",
+          "file": null
+        },
+        {
+          "photo_id": 44,
+          "source_url": "https://static.tildacdn.com/tild3034-6461-4835-b839-316537353731/IMG_9677_1_1.webp",
+          "quality": "source_link_only",
+          "file": null
+        }
+      ]
+    },
+    {
+      "name": "Завтраки",
+      "items": [
+        {
+          "id": 37,
+          "name": "Овсянка с карамелью",
+          "prices_rub": [
+            360
+          ],
+          "description": "Овсянка на молоке и сливках, сезонные фрукты, карамельный топпинг",
+          "portion": null,
+          "photo": {
+            "photo_id": 45,
+            "source_url": "https://static.tildacdn.com/tild6537-3865-4735-a635-663765613736/IMG_9211.JPG",
+            "quality": "thumbnail",
+            "file": "photos/045.JPG"
+          }
+        },
+        {
+          "id": 38,
+          "name": "Самурай в горах",
+          "prices_rub": [
+            430
+          ],
+          "description": "Говяжьи сосиски, фета, омлет с томатами, хлеб, чесночный соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 46,
+            "source_url": "https://static.tildacdn.com/tild3365-3432-4337-b037-306335646538/IMG_9220.JPG",
+            "quality": "thumbnail",
+            "file": "photos/046.JPG"
+          }
+        },
+        {
+          "id": 39,
+          "name": "Завтрак-конструктор",
+          "prices_rub": [
+            210
+          ],
+          "description": "Основа на выбор: глазунья, скрэмбл или омлет с томатами",
+          "portion": null,
+          "photo": {
+            "photo_id": 47,
+            "source_url": "https://static.tildacdn.com/tila6466-3433-4337-a332-306637393864/IMG_7147.JPG",
+            "quality": "thumbnail",
+            "file": "photos/047.JPG"
+          }
+        },
+        {
+          "id": 40,
+          "name": "Питательная гранола с греческим йогуртом и сезонными фруктами",
+          "prices_rub": [
+            390
+          ],
+          "description": "Гранола, греческий йогурт, семена чиа, сливки, сезонные фрукты и ягоды",
+          "portion": null,
+          "photo": {
+            "photo_id": 48,
+            "source_url": "https://static.tildacdn.com/tild6233-3764-4435-a261-326666323334/____.JPG",
+            "quality": "thumbnail",
+            "file": "photos/048.JPG"
+          }
+        },
+        {
+          "id": 41,
+          "name": "Японский омлет",
+          "prices_rub": [
+            340
+          ],
+          "description": "Яйца, сыр гауда, горчичный соус, рис басмати, курица, кетчуп, укроп, зелёный лук, унаги, огурцы, помидоры, салат",
+          "portion": null,
+          "photo": {
+            "photo_id": 49,
+            "source_url": "https://static.tildacdn.com/tild6661-3138-4232-b832-306365643362/DSC08611_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/049.webp"
+          }
+        },
+        {
+          "id": 42,
+          "name": "Воздушный овсяной блинчик",
+          "prices_rub": [
+            390
+          ],
+          "description": "Овсянка, яйца, молоко, творожный сыр, пюре авокадо, укроп, лосось холодного копчения, помидор, салат, унаги",
+          "portion": null,
+          "photo": {
+            "photo_id": 50,
+            "source_url": "https://static.tildacdn.com/tild3434-3533-4237-b030-633261336539/DSC08597_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/050.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Поке",
+      "items": [
+        {
+          "id": 43,
+          "name": "Поке с лососем",
+          "prices_rub": [
+            640
+          ],
+          "description": "Рис, лосось, помидоры, огурцы, болгарский перец, фета, кукуруза, салат, унаги",
+          "portion": null,
+          "photo": {
+            "photo_id": 51,
+            "source_url": "https://static.tildacdn.com/tild3930-3234-4434-a635-626364666630/noroot_4_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/051.webp"
+          }
+        },
+        {
+          "id": 44,
+          "name": "Поке с цыпленком",
+          "prices_rub": [
+            540
+          ],
+          "description": "Рис, цыплёнок, помидоры, огурцы, болгарский перец, фета, кукуруза, салат, унаги",
+          "portion": null,
+          "photo": {
+            "photo_id": 52,
+            "source_url": "https://static.tildacdn.com/tild6662-6232-4338-a139-326466653533/noroot_5_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/052.webp"
+          }
+        },
+        {
+          "id": 45,
+          "name": "Поке с тигровыми креветками",
+          "prices_rub": [
+            610
+          ],
+          "description": "Рис, тигровые креветки, помидоры, огурцы, болгарский перец, фета, кукуруза, салат, унаги",
+          "portion": null,
+          "photo": {
+            "photo_id": 53,
+            "source_url": "https://static.tildacdn.com/tild3561-6238-4665-b238-636636353835/noroot_6_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/053.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Плейт",
+      "items": [
+        {
+          "id": 46,
+          "name": "Плейт с цыпленком",
+          "prices_rub": [
+            560
+          ],
+          "description": "Курица, огурцы, помидоры, микс салата, картофельные дольки, малосольные огурцы, лепёшка, фирменный соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 54,
+            "source_url": "https://static.tildacdn.com/tild3933-3531-4265-b330-623466643533/noroot_7_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/054.webp"
+          }
+        },
+        {
+          "id": 47,
+          "name": "Плейт с говядиной",
+          "prices_rub": [
+            650
+          ],
+          "description": "Говядина, огурцы, помидоры, микс салата, картофельные дольки, малосольные огурцы, лепёшка, фирменный соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 55,
+            "source_url": "https://static.tildacdn.com/tild6465-6539-4336-a263-396534306337/noroot_8_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/055.webp"
+          }
+        },
+        {
+          "id": 48,
+          "name": "Плейт с тигровыми креветками",
+          "prices_rub": [
+            620
+          ],
+          "description": "Тигровые креветки, огурцы, помидоры, микс салата, картофельные дольки, малосольные огурцы, лепёшка, фирменный соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 56,
+            "source_url": "https://static.tildacdn.com/tild3563-3038-4164-b061-323139343433/noroot_9_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/056.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Рис басмати",
+      "items": [
+        {
+          "id": 49,
+          "name": "Рис басмати с цыпленком",
+          "prices_rub": [
+            630
+          ],
+          "description": "Рис басмати, курица, соус том ям, солёный арахис, лайм",
+          "portion": null,
+          "photo": {
+            "photo_id": 57,
+            "source_url": "https://static.tildacdn.com/tild3633-6530-4236-a663-666165353564/noroot_10_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/057.webp"
+          }
+        },
+        {
+          "id": 50,
+          "name": "Рис басмати с тигровыми креветками",
+          "prices_rub": [
+            650
+          ],
+          "description": "Рис басмати, тигровые креветки, соус том ям, солёный арахис, лайм",
+          "portion": null,
+          "photo": {
+            "photo_id": 58,
+            "source_url": "https://static.tildacdn.com/tild3939-3136-4333-b735-383431626466/noroot_11_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/058.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "WOK",
+      "items": [
+        {
+          "id": 51,
+          "name": "WOK с цыпленком",
+          "prices_rub": [
+            460
+          ],
+          "description": "Лапша на выбор, соус якитори, курица, цукини, болгарский перец, красный лук, морковь",
+          "portion": null,
+          "photo": {
+            "photo_id": 59,
+            "source_url": "https://static.tildacdn.com/tild3735-3235-4433-b433-613061316263/noroot_12_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/059.webp"
+          }
+        },
+        {
+          "id": 52,
+          "name": "WOK с говядиной",
+          "prices_rub": [
+            510
+          ],
+          "description": "Лапша на выбор, перечный соус, говядина, цукини, болгарский перец, красный лук, морковь",
+          "portion": null,
+          "photo": {
+            "photo_id": 60,
+            "source_url": "https://static.tildacdn.com/tild3934-6231-4132-b838-376335383936/noroot_13_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/060.webp"
+          }
+        },
+        {
+          "id": 53,
+          "name": "WOK с креветками",
+          "prices_rub": [
+            540
+          ],
+          "description": "Лапша на выбор, соус якитори, тигровые креветки, цукини, болгарский перец, красный лук, морковь",
+          "portion": null,
+          "photo": {
+            "photo_id": 61,
+            "source_url": "https://static.tildacdn.com/tild3364-3735-4863-b334-646633396564/noroot_14_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/061.webp"
+          }
+        },
+        {
+          "id": 54,
+          "name": "WOK с овощами",
+          "prices_rub": [
+            440
+          ],
+          "description": "Лапша на выбор, соус якитори, цукини, болгарский перец, красный лук, морковь, стручковая фасоль, брокколи",
+          "portion": null,
+          "photo": {
+            "photo_id": 62,
+            "source_url": "https://static.tildacdn.com/tild6264-3833-4130-a539-333237373033/noroot_15_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/062.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Супы",
+      "items": [
+        {
+          "id": 55,
+          "name": "Фо Бо",
+          "prices_rub": [
+            620
+          ],
+          "description": "Рисовая лапша, говядина, бульон, зелень. Подаётся с чили, рисовым уксусом и рыбным соусом",
+          "portion": null,
+          "photo": {
+            "photo_id": 63,
+            "source_url": "https://static.tildacdn.com/tila6662-6231-4665-a337-333536373935/IMG-6553.webp",
+            "quality": "thumbnail",
+            "file": "photos/063.webp"
+          }
+        },
+        {
+          "id": 56,
+          "name": "Даси с курицей и лапшой",
+          "prices_rub": [
+            440
+          ],
+          "description": "Куриный бульон, курица, пшеничная лапша, кабачок, болгарский перец, красный лук, морковь, помидор, зелёный лук, нори. Подаётся с хлебом",
+          "portion": null,
+          "photo": {
+            "photo_id": 64,
+            "source_url": "https://static.tildacdn.com/tild6235-6661-4431-b431-376639366230/IMG_9217.JPG",
+            "quality": "thumbnail",
+            "file": "photos/064.JPG"
+          }
+        },
+        {
+          "id": 57,
+          "name": "Грибной крем-суп",
+          "prices_rub": [
+            410
+          ],
+          "description": "Шампиньоны, белые грибы, картофель, сливки, репчатый лук. Подаётся с хлебом",
+          "portion": null,
+          "photo": {
+            "photo_id": 65,
+            "source_url": "https://static.tildacdn.com/tild3838-3031-4634-b733-356233306138/IMG_9219.JPG",
+            "quality": "thumbnail",
+            "file": "photos/065.JPG"
+          }
+        },
+        {
+          "id": 58,
+          "name": "Том Кха",
+          "prices_rub": [
+            670
+          ],
+          "description": "Куриный бульон, паста том ям, креветки, цыплёнок, шампиньоны, черри, стручковая фасоль, болгарский перец, красный лук, морковь, цукини, кунжут, лайм. Подаётся с рисом",
+          "portion": null,
+          "photo": {
+            "photo_id": 66,
+            "source_url": "https://static.tildacdn.com/tild3533-3163-4539-b635-376331353838/IMG_9213.JPG",
+            "quality": "thumbnail",
+            "file": "photos/066.JPG"
+          }
+        },
+        {
+          "id": 59,
+          "name": "Рамэн",
+          "prices_rub": [
+            580
+          ],
+          "description": "Говяжий бульон, говядина, пшеничная лапша, варёное яйцо, зелёный лук. Подаётся с хлебом",
+          "portion": null,
+          "photo": {
+            "photo_id": 67,
+            "source_url": "https://static.tildacdn.com/tild3330-3133-4164-a232-323339633064/IMG_9215.JPG",
+            "quality": "thumbnail",
+            "file": "photos/067.JPG"
+          }
+        },
+        {
+          "id": 60,
+          "name": "Том Ям",
+          "prices_rub": [
+            720
+          ],
+          "description": "Куриный бульон, паста том ям, кальмары, мидии, креветки, черри, лайм, шампиньон, кокосовое молоко, кинза. Подаётся с рисом, хлеб по желанию",
+          "portion": null,
+          "photo": {
+            "photo_id": 68,
+            "source_url": "https://static.tildacdn.com/tila3563-6435-4538-b061-656132306561/IMG-6533.webp",
+            "quality": "thumbnail",
+            "file": "photos/068.webp"
+          }
+        }
+      ],
+      "section_images": [
+        {
+          "photo_id": 69,
+          "source_url": "https://static.tildacdn.com/tild3165-3435-4738-a437-616561353266/noroot_21_1.webp",
+          "quality": "source_link_only",
+          "file": null
+        }
+      ]
+    },
+    {
+      "name": "Салаты и закуски",
+      "items": [
+        {
+          "id": 61,
+          "name": "Салат с жареным баклажаном и сыром фетакса.",
+          "prices_rub": [
+            490
+          ],
+          "description": "Баклажан, помидоры, фетакса, кинза, сладкий чили",
+          "portion": null,
+          "photo": {
+            "photo_id": 70,
+            "source_url": "https://static.tildacdn.com/tild6138-3238-4065-b564-346433373431/DSC08620_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/070.webp"
+          }
+        },
+        {
+          "id": 62,
+          "name": "Салат с говядиной \"По-корейски\"",
+          "prices_rub": [
+            630
+          ],
+          "description": "Отварная говядина, помидоры, огурцы, болгарский перец, репчатый и зелёный лук, соевый соус",
+          "portion": null,
+          "photo": {
+            "photo_id": 71,
+            "source_url": "https://static.tildacdn.com/tild3564-3234-4264-b763-353036306636/DSC08632_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/071.webp"
+          }
+        },
+        {
+          "id": 63,
+          "name": "Салат Летний",
+          "prices_rub": [
+            280
+          ],
+          "description": "Огурцы, помидоры, айсберг, укроп, кинза, оливковое масло",
+          "portion": null,
+          "photo": {
+            "photo_id": 72,
+            "source_url": "https://static.tildacdn.com/tild6561-6566-4336-a166-383061313137/DSC08678_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/072.webp"
+          }
+        },
+        {
+          "id": 64,
+          "name": "Баклажан по тайски",
+          "prices_rub": [
+            310
+          ],
+          "description": "Жареные баклажаны в соусе с чили",
+          "portion": null,
+          "photo": {
+            "photo_id": 73,
+            "source_url": "https://static.tildacdn.com/tila3137-3438-4436-b633-363031633264/_2026-11-16_16423082.png",
+            "quality": "thumbnail",
+            "file": "photos/073.png"
+          }
+        },
+        {
+          "id": 65,
+          "name": "Салат с битыми огурцами \"Ве Ча\"",
+          "prices_rub": [
+            580
+          ],
+          "description": "Обжаренный цыплёнок, свежие огурцы",
+          "portion": null,
+          "photo": {
+            "photo_id": 74,
+            "source_url": "https://static.tildacdn.com/tila3165-3834-4939-a261-666162633137/_2026-11-16_16425300.png",
+            "quality": "thumbnail",
+            "file": "photos/074.png"
+          }
+        },
+        {
+          "id": 66,
+          "name": "Салат с клубникой \"Tokyo summer\"",
+          "prices_rub": [
+            790
+          ],
+          "description": "Обжаренные креветки, клубника, авокадо, микс салата",
+          "portion": null,
+          "photo": {
+            "photo_id": 75,
+            "source_url": "https://static.tildacdn.com/tila6565-6432-4665-a633-353833316139/_2026-11-16_16433176.png",
+            "quality": "thumbnail",
+            "file": "photos/075.png"
+          }
+        },
+        {
+          "id": 67,
+          "name": "Силин",
+          "prices_rub": [
+            580
+          ],
+          "description": "Креветка, авокадо, фетакса, хрустящая панировка, микс салата, соус чили-манго",
+          "portion": null,
+          "photo": {
+            "photo_id": 76,
+            "source_url": "https://static.tildacdn.com/tila6433-3237-4462-a161-643464396332/_2026-11-16_16440926.png",
+            "quality": "thumbnail",
+            "file": "photos/076.png"
+          }
+        },
+        {
+          "id": 68,
+          "name": "Салат Цезарь с курицей / с креветками",
+          "prices_rub": [
+            520,
+            590
+          ],
+          "description": "Цыплёнок или креветки, гренки, айсберг, черри, перепелиное яйцо, пармезан, соус цезарь",
+          "portion": null,
+          "photo": {
+            "photo_id": 77,
+            "source_url": "https://static.tildacdn.com/tila6331-3538-4033-b661-343538643665/IMG-4193.webp",
+            "quality": "thumbnail",
+            "file": "photos/077.webp"
+          }
+        },
+        {
+          "id": 69,
+          "name": "Тигровые креветки темпура с соусом на выбор",
+          "prices_rub": [
+            530
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 78,
+            "source_url": "https://static.tildacdn.com/tild3637-6566-4662-a163-333633373437/DSC08614_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/078.webp"
+          }
+        },
+        {
+          "id": 70,
+          "name": "Ньокки с королевскими креветками темпура",
+          "prices_rub": [
+            610
+          ],
+          "description": "Картофельные ньокки, королевские креветки темпура, унаги, сладкий чили, кинза",
+          "portion": null,
+          "photo": {
+            "photo_id": 79,
+            "source_url": "https://static.tildacdn.com/tila3130-3065-4261-b433-643733333838/IMG-4197.webp",
+            "quality": "thumbnail",
+            "file": "photos/079.webp"
+          }
+        },
+        {
+          "id": 71,
+          "name": "Картофель фри",
+          "prices_rub": [
+            240
+          ],
+          "description": "Соус на выбор, пармезан",
+          "portion": null,
+          "photo": {
+            "photo_id": 80,
+            "source_url": "https://static.tildacdn.com/tild6163-6565-4365-b236-646662366331/DSC08622_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/080.webp"
+          }
+        },
+        {
+          "id": 72,
+          "name": "Онигири с курицей / лососем",
+          "prices_rub": [
+            210,
+            240
+          ],
+          "description": "Рис в нори с курицей или лососем",
+          "portion": null,
+          "photo": {
+            "photo_id": 81,
+            "source_url": "https://static.tildacdn.com/tila6335-3231-4734-a635-626432666138/IMG_7048.PNG",
+            "quality": "thumbnail",
+            "file": "photos/081.PNG"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Холодные роллы",
+      "items": [
+        {
+          "id": 73,
+          "name": "Филадельфия \"Ча\" / Филадельфия \"Ча\" Lux",
+          "prices_rub": [
+            750
+          ],
+          "description": "Рис, нори, лосось, творожный сыр, огурец. В Lux вместо огурца манго",
+          "portion": null,
+          "photo": {
+            "photo_id": 82,
+            "source_url": "https://static.tildacdn.com/tila6364-6231-4438-a565-366161663161/f2d95c2d-9aa5-48c7-b.jpg",
+            "quality": "thumbnail",
+            "file": "photos/082.jpg"
+          }
+        },
+        {
+          "id": 74,
+          "name": "Филадельфия Дикий лосось",
+          "prices_rub": [
+            1770
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 83,
+            "source_url": "https://static.tildacdn.com/tila3339-6438-4937-a238-303734313165/IMG_7049.PNG",
+            "quality": "thumbnail",
+            "file": "photos/083.PNG"
+          }
+        },
+        {
+          "id": 75,
+          "name": "Филадельфия mini / Филадельфия mini Lux",
+          "prices_rub": [
+            590
+          ],
+          "description": "Рис, нори, лосось, творожный сыр, огурец. В Lux вместо огурца манго",
+          "portion": null,
+          "photo": {
+            "photo_id": 84,
+            "source_url": "https://static.tildacdn.com/tild3265-3530-4362-a466-663864353934/DSC08608_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/084.webp"
+          }
+        },
+        {
+          "id": 76,
+          "name": "Бешеный лосось",
+          "prices_rub": [
+            690
+          ],
+          "description": "Рис, нори, масаго, лосось, огурец, сливочный соус, унаги",
+          "portion": null,
+          "photo": {
+            "photo_id": 85,
+            "source_url": "https://static.tildacdn.com/tild6636-3036-4461-a333-343563376130/noroot_28_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/085.webp"
+          }
+        },
+        {
+          "id": 77,
+          "name": "Ойси",
+          "prices_rub": [
+            670
+          ],
+          "description": "Рис, нори, лосось, креветка, творожный сыр, масаго, унаги, кунжут",
+          "portion": null,
+          "photo": {
+            "photo_id": 86,
+            "source_url": "https://static.tildacdn.com/tild3639-3939-4830-b736-316435396464/noroot_29_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/086.webp"
+          }
+        },
+        {
+          "id": 78,
+          "name": "Томаму с тунцом",
+          "prices_rub": [
+            570
+          ],
+          "description": "Рис, нори, огурец, тунец, авокадо, творожный сыр, унаги, кунжут",
+          "portion": null,
+          "photo": {
+            "photo_id": 87,
+            "source_url": "https://static.tildacdn.com/tild6264-3335-4663-b832-336566636566/noroot_30_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/087.webp"
+          }
+        },
+        {
+          "id": 79,
+          "name": "Калифорния с креветкой",
+          "prices_rub": [
+            570
+          ],
+          "description": "Масаго, креветки, огурец, авокадо, рис, нори",
+          "portion": null,
+          "photo": {
+            "photo_id": 88,
+            "source_url": "https://static.tildacdn.com/tild3237-3036-4361-b434-383064373664/noroot_31_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/088.webp"
+          }
+        },
+        {
+          "id": 80,
+          "name": "Калифорния с лососем",
+          "prices_rub": [
+            590
+          ],
+          "description": "Рис, нори, масаго, лосось, огурец, авокадо",
+          "portion": null,
+          "photo": {
+            "photo_id": 89,
+            "source_url": "https://static.tildacdn.com/tild3234-3262-4633-a161-393037623231/noroot_32_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/089.webp"
+          }
+        },
+        {
+          "id": 81,
+          "name": "Киото",
+          "prices_rub": [
+            590
+          ],
+          "description": "Рис, нори, креветка темпура, творожный сыр, авокадо, кунжут, чука, ореховый соус, унаги",
+          "portion": null,
+          "photo": {
+            "photo_id": 90,
+            "source_url": "https://static.tildacdn.com/tild3566-3262-4162-a535-353730303938/DSC08624_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/090.webp"
+          }
+        },
+        {
+          "id": 82,
+          "name": "Осака",
+          "prices_rub": [
+            540
+          ],
+          "description": "Рис, нори, лосось холодного копчения, огурец, масаго",
+          "portion": null,
+          "photo": {
+            "photo_id": 91,
+            "source_url": "https://static.tildacdn.com/tild3764-3135-4730-b665-326164636230/DSC08630_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/091.webp"
+          }
+        },
+        {
+          "id": 83,
+          "name": "Эби маки",
+          "prices_rub": [
+            320
+          ],
+          "description": "Рис, нори, креветка",
+          "portion": null,
+          "photo": {
+            "photo_id": 92,
+            "source_url": "https://static.tildacdn.com/tild3937-3938-4633-a636-373634376434/DSC08603_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/092.webp"
+          }
+        },
+        {
+          "id": 84,
+          "name": "Капа маки",
+          "prices_rub": [
+            230
+          ],
+          "description": "Рис, нори, огурец, творожный сыр",
+          "portion": null,
+          "photo": {
+            "photo_id": 93,
+            "source_url": "https://static.tildacdn.com/tild3663-3333-4134-a634-656634653331/DSC08605_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/093.webp"
+          }
+        },
+        {
+          "id": 85,
+          "name": "Йонака",
+          "prices_rub": [
+            490
+          ],
+          "description": "Копчёная курица, творожный сыр, огурец, унаги, кунжут, рис, нори",
+          "portion": null,
+          "photo": {
+            "photo_id": 94,
+            "source_url": "https://static.tildacdn.com/tild6266-3962-4637-a339-316564366637/NZ5_0970.jpg",
+            "quality": "thumbnail",
+            "file": "photos/094.jpg"
+          }
+        },
+        {
+          "id": 86,
+          "name": "Такуан маки mini",
+          "prices_rub": [
+            290
+          ],
+          "description": "Маринованный редис, творожный сыр, рис, нори",
+          "portion": null,
+          "photo": {
+            "photo_id": 95,
+            "source_url": "https://static.tildacdn.com/tild3762-3430-4332-a362-366535383965/NZ5_0930.jpg",
+            "quality": "thumbnail",
+            "file": "photos/095.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Темпура роллы",
+      "items": [
+        {
+          "id": 87,
+          "name": "Цезарь с курицей",
+          "prices_rub": [
+            580
+          ],
+          "description": "Курица, гауда, помидор, салат, панировка",
+          "portion": null,
+          "photo": {
+            "photo_id": 96,
+            "source_url": "https://static.tildacdn.com/tild3437-3935-4631-b439-323265643034/noroot_33_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/096.webp"
+          }
+        },
+        {
+          "id": 88,
+          "name": "Цезарь с креветкой",
+          "prices_rub": [
+            660
+          ],
+          "description": "Креветка, гауда, помидор, салат, панировка, унаги",
+          "portion": null,
+          "photo": {
+            "photo_id": 97,
+            "source_url": "https://static.tildacdn.com/tild6634-6137-4264-a230-353666326464/noroot_34_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/097.webp"
+          }
+        },
+        {
+          "id": 89,
+          "name": "Горячий шик",
+          "prices_rub": [
+            690
+          ],
+          "description": "Лосось, творожный сыр, авокадо, масаго, спайси, панировка",
+          "portion": null,
+          "photo": {
+            "photo_id": 98,
+            "source_url": "https://static.tildacdn.com/tild6333-3535-4639-b736-343362613039/noroot_35_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/098.webp"
+          }
+        },
+        {
+          "id": 90,
+          "name": "Фудзияма",
+          "prices_rub": [
+            670
+          ],
+          "description": "Рис, нори, творожный сыр, слабосолёный лосось, авокадо, масаго, панировка, унаги, спайси",
+          "portion": null,
+          "photo": {
+            "photo_id": 99,
+            "source_url": "https://static.tildacdn.com/tild3565-6638-4465-b566-393230653465/IMG_6580.JPG",
+            "quality": "thumbnail",
+            "file": "photos/099.JPG"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Запеченные роллы",
+      "items": [
+        {
+          "id": 91,
+          "name": "Хигаси",
+          "prices_rub": [
+            610
+          ],
+          "description": "Рис, творожный сыр, огурцы, лосось, унаги, сливочная шапочка из майонеза, гауды, укропа и чеснока",
+          "portion": null,
+          "photo": {
+            "photo_id": 100,
+            "source_url": "https://static.tildacdn.com/tild3633-6339-4533-b265-656530336533/noroot_36_1.jpg",
+            "quality": "thumbnail",
+            "file": "photos/100.jpg"
+          }
+        },
+        {
+          "id": 92,
+          "name": "Токио",
+          "prices_rub": [
+            580
+          ],
+          "description": "Курица, гауда, омлет, помидор, салат, унаги, кунжут",
+          "portion": null,
+          "photo": {
+            "photo_id": 101,
+            "source_url": "https://static.tildacdn.com/tild6334-3439-4762-b633-356538653035/noroot_37_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/101.webp"
+          }
+        },
+        {
+          "id": 93,
+          "name": "Хоккайдо",
+          "prices_rub": [
+            630
+          ],
+          "description": "Копчёный лосось, омлет, помидор, огурец, гауда, зелёный лук, унаги",
+          "portion": null,
+          "photo": {
+            "photo_id": 102,
+            "source_url": "https://static.tildacdn.com/tild6632-6333-4438-a434-353930343431/noroot_38_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/102.webp"
+          }
+        },
+        {
+          "id": 94,
+          "name": "Узумаки",
+          "prices_rub": [
+            590
+          ],
+          "description": "Курица, копчёный угорь, омлет, гауда, пармезан, огурец, зелёный лук, унаги, кунжут",
+          "portion": null,
+          "photo": {
+            "photo_id": 103,
+            "source_url": "https://static.tildacdn.com/tild3036-6235-4638-b966-363339653464/noroot_39_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/103.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Бизнес ланч ⌚",
+      "items": [
+        {
+          "id": 95,
+          "name": "Ланч №1",
+          "prices_rub": [
+            415
+          ],
+          "description": "Рамэн, цезарь по-корейски, ролл с курицей, булочка",
+          "portion": null,
+          "photo": {
+            "photo_id": 104,
+            "source_url": "https://static.tildacdn.com/tila6433-6166-4033-a561-323632346133/IMG_7164.JPG",
+            "quality": "thumbnail",
+            "file": "photos/104.JPG"
+          }
+        },
+        {
+          "id": 96,
+          "name": "Ланч №2",
+          "prices_rub": [
+            465
+          ],
+          "description": "Том ям, салат с битыми огурцами, ролл с лососем, булочка",
+          "portion": null,
+          "photo": {
+            "photo_id": 105,
+            "source_url": "https://static.tildacdn.com/tila3533-3231-4537-b764-626235646638/IMG_7160.jpg",
+            "quality": "thumbnail",
+            "file": "photos/105.jpg"
+          }
+        },
+        {
+          "id": 97,
+          "name": "Ланч №3",
+          "prices_rub": [
+            375
+          ],
+          "description": "Куриный суп, спринг-ролл, ролл с курицей, булочка",
+          "portion": null,
+          "photo": {
+            "photo_id": 106,
+            "source_url": "https://static.tildacdn.com/tila3862-6539-4563-a536-336533373465/IMG_7165.jpg",
+            "quality": "thumbnail",
+            "file": "photos/106.jpg"
+          }
+        }
+      ],
+      "hours": "Пн–Пт 12:00–16:00"
+    },
+    {
+      "name": "Гонконгские вафли",
+      "items": [
+        {
+          "id": 98,
+          "name": "Пикми",
+          "prices_rub": [
+            460
+          ],
+          "description": "Классическое тесто, клубничный крем-чиз, свежие сезонные ягоды, нутелла",
+          "portion": null,
+          "photo": {
+            "photo_id": 107,
+            "source_url": "https://static.tildacdn.com/tila3537-6533-4637-a132-623266393938/_2026-11-16_15460572.png",
+            "quality": "thumbnail",
+            "file": "photos/107.png"
+          }
+        },
+        {
+          "id": 99,
+          "name": "Киндер бум",
+          "prices_rub": [
+            490
+          ],
+          "description": "Классическое тесто, шоколад киндер, крем-чиз, нутелла, орехи, сублимированная малина",
+          "portion": null,
+          "photo": {
+            "photo_id": 108,
+            "source_url": "https://static.tildacdn.com/tila3331-3734-4065-b762-313835393566/_2026-11-16_15452066.png",
+            "quality": "thumbnail",
+            "file": "photos/108.png"
+          }
+        },
+        {
+          "id": 100,
+          "name": "Орео",
+          "prices_rub": [
+            480
+          ],
+          "description": "Шоколадное тесто, шоколадное мороженое, крем-чиз, печенье орео, голубика, нутелла",
+          "portion": null,
+          "photo": {
+            "photo_id": 109,
+            "source_url": "https://static.tildacdn.com/tila6139-3566-4265-b561-663138643732/_2026-11-16_15455129.png",
+            "quality": "thumbnail",
+            "file": "photos/109.png"
+          }
+        },
+        {
+          "id": 101,
+          "name": "Сникерс",
+          "prices_rub": [
+            470
+          ],
+          "description": "Классическое тесто, ванильное мороженое, крем-чиз, солёная карамель, обжаренный арахис, шоколад, нутелла",
+          "portion": null,
+          "photo": {
+            "photo_id": 110,
+            "source_url": "https://static.tildacdn.com/tila3238-3039-4639-b830-346234643032/_2026-11-16_15464860.png",
+            "quality": "thumbnail",
+            "file": "photos/110.png"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Крамбл",
+      "items": [
+        {
+          "id": 102,
+          "name": "Клубничный Крамбл",
+          "prices_rub": [
+            360
+          ],
+          "description": "Пирог с клубничной начинкой, миндальными лепестками и мороженым",
+          "portion": null,
+          "photo": {
+            "photo_id": 111,
+            "source_url": "https://static.tildacdn.com/tila6264-3362-4138-b430-646631333435/IMG_7134.JPG",
+            "quality": "thumbnail",
+            "file": "photos/111.JPG"
+          }
+        },
+        {
+          "id": 103,
+          "name": "Персиковый Крамбл",
+          "prices_rub": [
+            360
+          ],
+          "description": "Пирог с персиковой начинкой, миндальными лепестками и мороженым",
+          "portion": null,
+          "photo": {
+            "photo_id": 112,
+            "source_url": "https://static.tildacdn.com/tila6331-3638-4238-b834-313430613862/IMG_7135.JPG",
+            "quality": "thumbnail",
+            "file": "photos/112.JPG"
+          }
+        },
+        {
+          "id": 104,
+          "name": "Вишнёвый Крамбл",
+          "prices_rub": [
+            380
+          ],
+          "description": "Пирог с вишнёвой начинкой, миндальными лепестками и мороженым",
+          "portion": null,
+          "photo": {
+            "photo_id": 113,
+            "source_url": "https://static.tildacdn.com/tila6332-3736-4639-b561-623731343062/IMG_7136.JPG",
+            "quality": "thumbnail",
+            "file": "photos/113.JPG"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Десерты",
+      "items": [
+        {
+          "id": 105,
+          "name": "Моти",
+          "prices_rub": [
+            180
+          ],
+          "description": "Рисовая мука, творожный сыр, начинка на выбор",
+          "portion": null,
+          "photo": {
+            "photo_id": 114,
+            "source_url": "https://static.tildacdn.com/tild3638-6662-4161-a666-353636653038/noroot_47_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/114.webp"
+          }
+        },
+        {
+          "id": 106,
+          "name": "Чизкейк Орео",
+          "prices_rub": [
+            380
+          ],
+          "description": "Творожный сыр, печенье орео, молочный шоколад",
+          "portion": null,
+          "photo": {
+            "photo_id": 115,
+            "source_url": "https://static.tildacdn.com/tild3961-3330-4232-b966-363764333832/noroot_48_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/115.webp"
+          }
+        },
+        {
+          "id": 107,
+          "name": "Чизкейк Соленая карамель",
+          "prices_rub": [
+            350
+          ],
+          "description": "Творожный сыр, песочное тесто, солёная карамель",
+          "portion": null,
+          "photo": {
+            "photo_id": 116,
+            "source_url": "https://static.tildacdn.com/tild3033-3861-4239-b636-313666633336/noroot_49_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/116.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Лимонады",
+      "items": [
+        {
+          "id": 108,
+          "name": "Щавелевый",
+          "prices_rub": [
+            340,
+            740
+          ],
+          "description": "Щавель, содовая, лимонный фреш, сахарный сироп",
+          "portion": "400 мл / 1,5 л",
+          "photo": {
+            "photo_id": 117,
+            "source_url": "https://static.tildacdn.com/tild3130-3730-4566-a431-636630376536/photo.JPG",
+            "quality": "thumbnail",
+            "file": "photos/117.JPG"
+          }
+        },
+        {
+          "id": 109,
+          "name": "Лаванда-лайм",
+          "prices_rub": [
+            350,
+            760
+          ],
+          "description": "Лавандовый сироп, лайм, содовая, сушёная веточка лайма",
+          "portion": "400 мл / 1,5 л",
+          "photo": {
+            "photo_id": 118,
+            "source_url": "https://static.tildacdn.com/tild3035-3065-4134-b238-333139656438/DSC08795_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/118.webp"
+          }
+        },
+        {
+          "id": 110,
+          "name": "Санрайс",
+          "prices_rub": [
+            480,
+            890
+          ],
+          "description": "Апельсин, лайм, клубничный сироп, содовая",
+          "portion": "400 мл / 1,5 л",
+          "photo": {
+            "photo_id": 119,
+            "source_url": "https://static.tildacdn.com/tild3734-3439-4038-b764-326233636237/DSC08797_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/119.webp"
+          }
+        },
+        {
+          "id": 111,
+          "name": "Мохито",
+          "prices_rub": [
+            340,
+            740
+          ],
+          "description": "Лайм, мята, сахарный сироп, содовая",
+          "portion": "400 мл / 1,5 л",
+          "photo": {
+            "photo_id": 120,
+            "source_url": "https://static.tildacdn.com/tild6131-3463-4237-b934-656562373239/DSC08796_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/120.webp"
+          }
+        },
+        {
+          "id": 112,
+          "name": "Мохито клубничный",
+          "prices_rub": [
+            380,
+            810
+          ],
+          "description": "Клубника, лайм, мята, сахарный сироп, содовая",
+          "portion": "400 мл / 1,5 л",
+          "photo": {
+            "photo_id": 121,
+            "source_url": "https://static.tildacdn.com/tild3365-6136-4332-a261-613335343432/photo_2026-03-20_17-.jpg",
+            "quality": "thumbnail",
+            "file": "photos/121.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Свежевыжатый фреш",
+      "items": [
+        {
+          "id": 113,
+          "name": "Апельсиновый фреш",
+          "prices_rub": [
+            400
+          ],
+          "description": null,
+          "portion": "300 мл",
+          "photo": {
+            "photo_id": 122,
+            "source_url": "https://static.tildacdn.com/tild3332-3366-4465-a564-666365353038/DSC08712_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/122.webp"
+          }
+        },
+        {
+          "id": 114,
+          "name": "Гранатовый фреш",
+          "prices_rub": [
+            460
+          ],
+          "description": null,
+          "portion": "300 мл",
+          "photo": {
+            "photo_id": 123,
+            "source_url": "https://static.tildacdn.com/tild6239-3037-4166-b766-303835666633/image.webp",
+            "quality": "thumbnail",
+            "file": "photos/123.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Милкшейки",
+      "items": [
+        {
+          "id": 115,
+          "name": "Ванильный",
+          "prices_rub": [
+            340
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 124,
+            "source_url": "https://static.tildacdn.com/tild3139-3661-4032-b833-643261323132/DSC08757_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/124.webp"
+          }
+        },
+        {
+          "id": 116,
+          "name": "Клубничный",
+          "prices_rub": [
+            350
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 125,
+            "source_url": "https://static.tildacdn.com/tild6563-3531-4138-a633-316235636364/DSC08769_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/125.webp"
+          }
+        },
+        {
+          "id": 117,
+          "name": "Банановый",
+          "prices_rub": [
+            360
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 126,
+            "source_url": "https://static.tildacdn.com/tild3939-3937-4630-b064-636431383138/image_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/126.webp"
+          }
+        },
+        {
+          "id": 118,
+          "name": "Шоколадный",
+          "prices_rub": [
+            350
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 127,
+            "source_url": "https://static.tildacdn.com/tild6332-3038-4165-b565-343136343264/DSC08766_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/127.webp"
+          }
+        },
+        {
+          "id": 119,
+          "name": "Орео",
+          "prices_rub": [
+            380
+          ],
+          "description": null,
+          "portion": null,
+          "photo": {
+            "photo_id": 128,
+            "source_url": "https://static.tildacdn.com/tild3136-3066-4662-b237-313138376163/DSC08763_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/128.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Кофе",
+      "items": [
+        {
+          "id": 120,
+          "name": "Эспрессо",
+          "prices_rub": [
+            210
+          ],
+          "description": null,
+          "portion": "36 мл",
+          "photo": {
+            "photo_id": 129,
+            "source_url": "https://static.tildacdn.com/tild3466-6539-4434-a635-396565346139/DSC08750_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/129.webp"
+          }
+        },
+        {
+          "id": 121,
+          "name": "Комбо",
+          "prices_rub": [
+            370
+          ],
+          "description": "Эспрессо шот 36 мл, апельсиновый шот 50 мл",
+          "portion": null,
+          "photo": {
+            "photo_id": 130,
+            "source_url": "https://static.tildacdn.com/tild6266-3239-4463-a233-343064316634/DSC08752_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/130.webp"
+          }
+        },
+        {
+          "id": 122,
+          "name": "Американо",
+          "prices_rub": [
+            220
+          ],
+          "description": null,
+          "portion": "170 мл",
+          "photo": {
+            "photo_id": 131,
+            "source_url": "https://static.tildacdn.com/tild3432-3339-4737-b634-353136393334/DSC08756_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/131.webp"
+          }
+        },
+        {
+          "id": 123,
+          "name": "Флэт Уайт",
+          "prices_rub": [
+            260
+          ],
+          "description": null,
+          "portion": "170 мл",
+          "photo": {
+            "photo_id": 132,
+            "source_url": "https://static.tildacdn.com/tild6635-3063-4237-a133-316132376262/DSC08772_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/132.webp"
+          }
+        },
+        {
+          "id": 124,
+          "name": "Капучино",
+          "prices_rub": [
+            250,
+            300
+          ],
+          "description": null,
+          "portion": "170 / 270 мл",
+          "photo": {
+            "photo_id": 133,
+            "source_url": "https://static.tildacdn.com/tild6666-3865-4533-b637-346439373731/DSC08759_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/133.webp"
+          }
+        },
+        {
+          "id": 125,
+          "name": "Латте",
+          "prices_rub": [
+            280
+          ],
+          "description": null,
+          "portion": "270 мл",
+          "photo": {
+            "photo_id": 134,
+            "source_url": "https://static.tildacdn.com/tild6564-6339-4462-a664-353534333934/DSC08764_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/134.webp"
+          }
+        },
+        {
+          "id": 126,
+          "name": "Матча латте",
+          "prices_rub": [
+            340
+          ],
+          "description": null,
+          "portion": "270 мл",
+          "photo": {
+            "photo_id": 135,
+            "source_url": "https://static.tildacdn.com/tild3531-3865-4962-a230-623338663264/DSC08804_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/135.webp"
+          }
+        },
+        {
+          "id": 127,
+          "name": "Раф",
+          "prices_rub": [
+            330
+          ],
+          "description": null,
+          "portion": "350 мл",
+          "photo": {
+            "photo_id": 136,
+            "source_url": "https://static.tildacdn.com/tild6135-3439-4835-b937-376666373034/DSC08786_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/136.webp"
+          }
+        },
+        {
+          "id": 128,
+          "name": "Раф урбеч",
+          "prices_rub": [
+            390
+          ],
+          "description": null,
+          "portion": "350 мл",
+          "photo": {
+            "photo_id": 137,
+            "source_url": "https://static.tildacdn.com/tild6439-3663-4532-a464-633134616662/image_2_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/137.webp"
+          }
+        },
+        {
+          "id": 129,
+          "name": "Раф лавандовый",
+          "prices_rub": [
+            350
+          ],
+          "description": null,
+          "portion": "350 мл",
+          "photo": {
+            "photo_id": 138,
+            "source_url": "https://static.tildacdn.com/tild3065-3765-4835-a138-336636343665/DSC08788_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/138.webp"
+          }
+        },
+        {
+          "id": 130,
+          "name": "Раф банановый",
+          "prices_rub": [
+            350
+          ],
+          "description": null,
+          "portion": "350 мл",
+          "photo": {
+            "photo_id": 137,
+            "source_url": "https://static.tildacdn.com/tild6439-3663-4532-a464-633134616662/image_2_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/137.webp"
+          }
+        },
+        {
+          "id": 131,
+          "name": "Какао",
+          "prices_rub": [
+            280,
+            320
+          ],
+          "description": null,
+          "portion": "270 / 350 мл",
+          "photo": {
+            "photo_id": 139,
+            "source_url": "https://static.tildacdn.com/tild6236-3136-4831-a437-663461356662/DSC08808_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/139.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Айс кофе",
+      "items": [
+        {
+          "id": 132,
+          "name": "Эспрессо тоник",
+          "prices_rub": [
+            310
+          ],
+          "description": null,
+          "portion": "350 мл",
+          "photo": {
+            "photo_id": 140,
+            "source_url": "https://static.tildacdn.com/tild3731-3966-4262-b036-393033613231/DSC08777_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/140.webp"
+          }
+        },
+        {
+          "id": 133,
+          "name": "Айс латте",
+          "prices_rub": [
+            310
+          ],
+          "description": null,
+          "portion": "350 мл",
+          "photo": {
+            "photo_id": 141,
+            "source_url": "https://static.tildacdn.com/tild3061-6331-4661-a262-333463623565/DSC08773_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/141.webp"
+          }
+        },
+        {
+          "id": 134,
+          "name": "Айс матча",
+          "prices_rub": [
+            340
+          ],
+          "description": null,
+          "portion": "250 мл",
+          "photo": {
+            "photo_id": 142,
+            "source_url": "https://static.tildacdn.com/tild3432-3161-4931-a430-343364663536/DSC08800_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/142.webp"
+          }
+        },
+        {
+          "id": 135,
+          "name": "Бамбл апельсиновый / гранатовый",
+          "prices_rub": [
+            390,
+            490
+          ],
+          "description": null,
+          "portion": "350 мл",
+          "photo": {
+            "photo_id": 143,
+            "source_url": "https://static.tildacdn.com/tild6562-6466-4439-b434-343838666635/DSC08780_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/143.webp"
+          }
+        },
+        {
+          "id": 136,
+          "name": "Культ",
+          "prices_rub": [
+            360
+          ],
+          "description": "Холодный кофе с мороженым",
+          "portion": "350 мл",
+          "photo": {
+            "photo_id": 144,
+            "source_url": "https://static.tildacdn.com/tild3936-3831-4336-a538-383462643366/DSC08809_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/144.webp"
+          }
+        },
+        {
+          "id": 137,
+          "name": "Т9 айс",
+          "prices_rub": [
+            390
+          ],
+          "description": "Кофе, мороженое, урбеч",
+          "portion": "350 мл",
+          "photo": {
+            "photo_id": 145,
+            "source_url": "https://static.tildacdn.com/tild3435-3439-4336-b861-303538623639/DSC08805_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/145.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Китайский чай / Шу Пуэр",
+      "items": [
+        {
+          "id": 138,
+          "name": "Мусульманин 0.5 / 1.5",
+          "prices_rub": [
+            530,
+            990
+          ],
+          "description": "Шу пуэр от мусульманской общины в Китае",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 146,
+            "source_url": "https://static.tildacdn.com/tild3964-3638-4530-b163-373131643435/noroot_50_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/146.webp"
+          }
+        },
+        {
+          "id": 139,
+          "name": "Вишневый Пуэр 0.5 / 1.5",
+          "prices_rub": [
+            490,
+            880
+          ],
+          "description": "Шу пуэр с натуральной ароматизацией, с черенками вишни",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 147,
+            "source_url": "https://static.tildacdn.com/tild3137-6239-4336-b538-613062353466/image_4_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/147.webp"
+          }
+        },
+        {
+          "id": 140,
+          "name": "Булан Шань 0.5 / 1.5",
+          "prices_rub": [
+            450,
+            870
+          ],
+          "description": "Плотный вкус, шоколад и орехи",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 148,
+            "source_url": "https://static.tildacdn.com/tild6430-3634-4736-b738-383131623430/image_5_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/148.webp"
+          }
+        },
+        {
+          "id": 141,
+          "name": "Гун Тин 0.5 / 1.5",
+          "prices_rub": [
+            460,
+            880
+          ],
+          "description": "Сбалансированный вкус, древесные ноты",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 149,
+            "source_url": "https://static.tildacdn.com/tild6535-3139-4531-a463-633830316330/image_6_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/149.webp"
+          }
+        },
+        {
+          "id": 142,
+          "name": "Ча Гао 0.5 / 1.5",
+          "prices_rub": [
+            490,
+            870
+          ],
+          "description": "Насыщенный маслянистый вкус, шоколадные ноты",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 150,
+            "source_url": "https://static.tildacdn.com/tild6362-3766-4339-a438-323138323436/image_7_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/150.webp"
+          }
+        },
+        {
+          "id": 143,
+          "name": "Лао Ча Тоу 0.5 / 1.5",
+          "prices_rub": [
+            530,
+            890
+          ],
+          "description": "Концентрированный насыщенный вкус",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 151,
+            "source_url": "https://static.tildacdn.com/tild3866-3465-4264-b639-316263383932/noroot_51_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/151.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Китайский чай / Шен Пуэр",
+      "items": [
+        {
+          "id": 144,
+          "name": "Шен Тай 0.5 / 1.5",
+          "prices_rub": [
+            420,
+            790
+          ],
+          "description": "Цветы, мёд и травы",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 152,
+            "source_url": "https://static.tildacdn.com/tild3761-3131-4432-b937-663538306466/image_8_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/152.webp"
+          }
+        },
+        {
+          "id": 145,
+          "name": "Лао Бань Чжань 0.5 / 1.5",
+          "prices_rub": [
+            450,
+            820
+          ],
+          "description": "Терпкий молодой чай",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 153,
+            "source_url": "https://static.tildacdn.com/tild3763-3236-4364-b837-393230663531/image_9_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/153.webp"
+          }
+        },
+        {
+          "id": 146,
+          "name": "Старый товарищ 0.5 / 1.5",
+          "prices_rub": [
+            410,
+            860
+          ],
+          "description": "Дымный вкус, сухофрукты",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 154,
+            "source_url": "https://static.tildacdn.com/tild3662-3432-4333-b364-643336333337/image_10_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/154.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Китайский чай / Белый чай",
+      "items": [
+        {
+          "id": 147,
+          "name": "Бай Му Дань 0.5 / 1.5",
+          "prices_rub": [
+            350,
+            680
+          ],
+          "description": "Нежный цветочный вкус и аромат луговых цветов",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 155,
+            "source_url": "https://static.tildacdn.com/tild3266-6563-4737-b730-656461356332/image_11_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/155.webp"
+          }
+        },
+        {
+          "id": 148,
+          "name": "Шоу Мэй 0.5 / 1.5",
+          "prices_rub": [
+            380,
+            710
+          ],
+          "description": "Медовый вкус, фруктовые и травяные ноты",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 156,
+            "source_url": "https://static.tildacdn.com/tild3938-6137-4432-b962-633964613963/image_12_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/156.webp"
+          }
+        },
+        {
+          "id": 149,
+          "name": "Похе Бай Ча 0.5 / 1.5",
+          "prices_rub": [
+            350,
+            710
+          ],
+          "description": "Цветочно-мятный вкус",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 157,
+            "source_url": "https://static.tildacdn.com/tild3532-3565-4338-b031-373037626334/image_13_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/157.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Китайский чай / Зеленый чай",
+      "items": [
+        {
+          "id": 150,
+          "name": "Си Ху Лун Цзин 0.5 / 1.5",
+          "prices_rub": [
+            370,
+            720
+          ],
+          "description": "Орехи, свежая трава, семечки",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 158,
+            "source_url": "https://static.tildacdn.com/tild6566-3666-4937-a532-336462306464/image_14_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/158.webp"
+          }
+        },
+        {
+          "id": 151,
+          "name": "Моли Хуа Ча 0.5 / 1.5",
+          "prices_rub": [
+            460,
+            860
+          ],
+          "description": "Чайный купаж с жасмином",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 159,
+            "source_url": "https://static.tildacdn.com/tild6335-6265-4135-b064-653933306261/image_15_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/159.webp"
+          }
+        },
+        {
+          "id": 152,
+          "name": "Тай Пин Хоу Куй 0.5 / 1.5",
+          "prices_rub": [
+            490,
+            890
+          ],
+          "description": "Чай ручной работы с нотами орхидеи",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 160,
+            "source_url": "https://static.tildacdn.com/tild3161-6538-4034-b430-326464666537/image_16_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/160.webp"
+          }
+        },
+        {
+          "id": 153,
+          "name": "Сенча 0.5 / 1.5",
+          "prices_rub": [
+            320,
+            650
+          ],
+          "description": "Свежие травяные ноты",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 161,
+            "source_url": "https://static.tildacdn.com/tild3836-3561-4465-b239-343534623333/image_17_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/161.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Китайский чай / Красный чай",
+      "items": [
+        {
+          "id": 154,
+          "name": "Цзинь Цзюнь Мэй 0.5 / 1.5",
+          "prices_rub": [
+            420,
+            820
+          ],
+          "description": "Хлебные и ореховые ноты",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 162,
+            "source_url": "https://static.tildacdn.com/tild6334-6461-4336-a335-666431393335/image_18_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/162.webp"
+          }
+        },
+        {
+          "id": 155,
+          "name": "Дянь Хунь Маофэн 0.5 / 1.5",
+          "prices_rub": [
+            390,
+            800
+          ],
+          "description": "Мягкий сладковатый вкус с древесными нотами",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 163,
+            "source_url": "https://static.tildacdn.com/tild6664-6133-4662-b031-303738613931/image_19_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/163.webp"
+          }
+        },
+        {
+          "id": 156,
+          "name": "И Шен Ча 0.5 / 1.5",
+          "prices_rub": [
+            480,
+            950
+          ],
+          "description": "Купаж с разнотравьем и сладким послевкусием",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 164,
+            "source_url": "https://static.tildacdn.com/tild3964-3938-4637-a332-633837316435/image_20_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/164.webp"
+          }
+        },
+        {
+          "id": 157,
+          "name": "Цзинь Чжень 0.5 / 1.5",
+          "prices_rub": [
+            510,
+            890
+          ],
+          "description": "Медово-цветочный аромат",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 165,
+            "source_url": "https://static.tildacdn.com/tild3737-6234-4163-b938-383538613330/image_21_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/165.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Китайский чай / Светлый улун",
+      "items": [
+        {
+          "id": 158,
+          "name": "Те Гуань Инь Хуа Сян 0.5 / 1.5",
+          "prices_rub": [
+            440,
+            880
+          ],
+          "description": "Сладковатый цветочный аромат",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 166,
+            "source_url": "https://static.tildacdn.com/tild3565-6435-4166-a635-626262626635/image_22_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/166.webp"
+          }
+        },
+        {
+          "id": 159,
+          "name": "Габа Али Шань 0.5 / 1.5",
+          "prices_rub": [
+            450,
+            820
+          ],
+          "description": "Мягкий хлебный аромат",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 167,
+            "source_url": "https://static.tildacdn.com/tild3665-3163-4730-b437-346131346530/image_23_1.png",
+            "quality": "thumbnail",
+            "file": "photos/167.png"
+          }
+        },
+        {
+          "id": 160,
+          "name": "Габа Медовая 0.5 / 1.5",
+          "prices_rub": [
+            490,
+            870
+          ],
+          "description": "Насыщенный медовый аромат",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 168,
+            "source_url": "https://static.tildacdn.com/tild6332-3030-4239-b166-633730393865/image_24_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/168.webp"
+          }
+        },
+        {
+          "id": 161,
+          "name": "Улун Женьшень 0.5 / 1.5",
+          "prices_rub": [
+            390,
+            790
+          ],
+          "description": "Женьшень, сладковато-терпкий вкус",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 169,
+            "source_url": "https://static.tildacdn.com/tild6666-6461-4332-a137-343133323438/image_25_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/169.webp"
+          }
+        },
+        {
+          "id": 162,
+          "name": "Най Сянь Цзинь Сюань 0.5 / 1.5",
+          "prices_rub": [
+            430,
+            860
+          ],
+          "description": "Сладкий сливочный аромат",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 170,
+            "source_url": "https://static.tildacdn.com/tild6263-3065-4532-b336-643039333334/image_26_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/170.webp"
+          }
+        },
+        {
+          "id": 163,
+          "name": "Те Гуань Мао Ча 0.5 / 1.5",
+          "prices_rub": [
+            460,
+            820
+          ],
+          "description": "Жасмин, сельдерей, хлебные ноты",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 171,
+            "source_url": "https://static.tildacdn.com/tild3636-3737-4263-b534-346164326664/image_27_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/171.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Китайский чай / Темный улун",
+      "items": [
+        {
+          "id": 164,
+          "name": "Дань Цун Ми Лань Сян 0.5 / 1.5",
+          "prices_rub": [
+            510,
+            930
+          ],
+          "description": "Фруктово-медовый аромат, древесная терпкость",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 172,
+            "source_url": "https://static.tildacdn.com/tild3437-3839-4638-b530-386539363037/image_28_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/172.webp"
+          }
+        },
+        {
+          "id": 165,
+          "name": "Да Хун Пао 0.5 / 1.5",
+          "prices_rub": [
+            490,
+            890
+          ],
+          "description": "Орехово-карамельный аромат, древесное послевкусие",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 173,
+            "source_url": "https://static.tildacdn.com/tild3238-6365-4334-b636-383138326439/image_29_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/173.webp"
+          }
+        },
+        {
+          "id": 166,
+          "name": "Те Ло Хань 0.5 / 1.5",
+          "prices_rub": [
+            420,
+            840
+          ],
+          "description": "Дымный вкус, жареные каштаны",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 174,
+            "source_url": "https://static.tildacdn.com/tild6161-3639-4838-a230-393230376663/image_30_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/174.webp"
+          }
+        },
+        {
+          "id": 167,
+          "name": "Те Гуань Инь Кху Гуа 0.5 / 1.5",
+          "prices_rub": [
+            450,
+            850
+          ],
+          "description": "Аромат выпечки, послевкусие жжёной карамели",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 175,
+            "source_url": "https://static.tildacdn.com/tild6561-3365-4633-a133-313035373762/image_31_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/175.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Китайский чай / Травяной чай",
+      "items": [
+        {
+          "id": 168,
+          "name": "Детокс 0.5 / 1.5",
+          "prices_rub": [
+            570,
+            950
+          ],
+          "description": "Цитрусово-ментоловый вкус",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 176,
+            "source_url": "https://static.tildacdn.com/tild3764-3031-4663-b935-663831663063/image_32_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/176.webp"
+          }
+        },
+        {
+          "id": 169,
+          "name": "Цзинь Сюань Кху Цяо 0.5 / 1.5",
+          "prices_rub": [
+            450,
+            850
+          ],
+          "description": "Сливочный аромат, послевкусие печенья",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 177,
+            "source_url": "https://static.tildacdn.com/tild3837-6335-4830-a465-663537336430/image_33_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/177.webp"
+          }
+        },
+        {
+          "id": 170,
+          "name": "Анчан 0.5 / 1.5",
+          "prices_rub": [
+            350,
+            680
+          ],
+          "description": "Синий чай из тайского цветка, лёгкий травянистый вкус",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 178,
+            "source_url": "https://static.tildacdn.com/tild3134-3635-4333-a630-373064613265/image_34_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/178.webp"
+          }
+        },
+        {
+          "id": 171,
+          "name": "Ройбуш 0.5 / 1.5",
+          "prices_rub": [
+            330,
+            680
+          ],
+          "description": "Насыщенный вкус с нотами шиповника",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 179,
+            "source_url": "https://static.tildacdn.com/tild3464-6438-4666-b432-306434303030/image_35_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/179.webp"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Фэн-Шуй",
+      "items": [
+        {
+          "id": 172,
+          "name": "Красный феникс 0.5 / 1.5",
+          "prices_rub": [
+            490,
+            940
+          ],
+          "description": "Малиново-мятная основа, ягоды",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 180,
+            "source_url": "https://static.tildacdn.com/tild6438-3963-4663-b035-633332626635/image_36_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/180.webp"
+          }
+        },
+        {
+          "id": 173,
+          "name": "Зеленый дракон 0.5 / 1.5",
+          "prices_rub": [
+            470,
+            890
+          ],
+          "description": "Пюре вишни и каламанси, смородина, лайм",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 181,
+            "source_url": "https://static.tildacdn.com/tild6237-6136-4634-b566-613839346532/IMG_5472_1_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/181.webp"
+          }
+        },
+        {
+          "id": 174,
+          "name": "Белый тигр 0.5 / 1.5",
+          "prices_rub": [
+            500,
+            930
+          ],
+          "description": "Облепиха, имбирь, апельсин",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 182,
+            "source_url": "https://static.tildacdn.com/tild3331-3339-4831-b938-396539636263/IMG_5476_2_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/182.webp"
+          }
+        },
+        {
+          "id": 175,
+          "name": "Черная черепаха 0.5 / 1.5",
+          "prices_rub": [
+            470,
+            890
+          ],
+          "description": "Черника, мята, зелёное яблоко, корица, молотый имбирь",
+          "portion": "0.5 / 1.5",
+          "photo": {
+            "photo_id": 183,
+            "source_url": "https://static.tildacdn.com/tild3633-6231-4139-a461-316138393636/IMG_5479_1_1.webp",
+            "quality": "thumbnail",
+            "file": "photos/183.webp"
+          }
+        }
+      ]
+    }
+  ],
+  "page_images": [
+    {
+      "photo_id": 184,
+      "source_url": "https://static.tildacdn.com/tild3130-3562-4266-b338-653532653033/__1.png",
+      "quality": "site_render",
+      "file": "photos/184.webp"
+    },
+    {
+      "photo_id": 185,
+      "source_url": "https://static.tildacdn.com/tild3862-3863-4638-b831-383166636537/noroot.png",
+      "quality": "site_render",
+      "file": "photos/185.webp"
+    },
+    {
+      "photo_id": 186,
+      "source_url": "https://static.tildacdn.com/tild6630-6566-4561-b162-333566353163/noroot.png",
+      "quality": "site_render",
+      "file": "photos/186.webp"
+    }
+  ],
+  "menu_hours": "Ежедневно 10:00–02:00",
+  "menu_notes": [
+    "При пищевой аллергии сообщите об этом официанту заранее.",
+    "Подача может отличаться от представленной на фото."
+  ]
+}
