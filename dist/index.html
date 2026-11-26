@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./tea-ritual.css">
   <script src="./home.js" type="module"></script>
+  <script src="./hero-teapot.js" type="module"></script>
   <script src="./tea-ritual.js" type="module"></script>
 </head>
 <body class="home">
@@ -32,6 +33,12 @@
       <figure class="hero-photo">
         <img src="./assets/interior.webp" alt="Зал «Ча» с бирюзовыми диванами, деревянными столами и тёплым светом" width="1600" height="1054" fetchpriority="high">
       </figure>
+      <div class="hero-teapot" aria-hidden="true">
+        <div class="hero-teapot-motion">
+          <img class="hero-teapot-poster" src="./assets/hero-teapot.webp" width="900" height="600" alt="" decoding="async">
+          <canvas class="hero-teapot-canvas" hidden></canvas>
+        </div>
+      </div>
     </section>
 
     <section class="menu-entry light-section" aria-labelledby="menu-title">

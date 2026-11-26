@@ -16,19 +16,27 @@ let loading = false;
 let onScreen = false;
 let pendingFrame = 0;
 let lastProgress = -1;
+let lastTime = 0;
 let activeButton = buttons[0];
 
 function distance() {
   return Math.max(1, track.clientHeight - panel.offsetHeight);
 }
 
-function frame() {
+function frame(time) {
   pendingFrame = 0;
   if (!onScreen || !model || reducedMotion.matches) return;
-  const progress = clamp(-track.getBoundingClientRect().top / distance());
-  if (progress === lastProgress) return;
-  lastProgress = progress;
-  model.render(progress);
+  const target = clamp(-track.getBoundingClientRect().top / distance());
+  const delta = Math.min(48, time - (lastTime || time - 16));
+  const weight = 1 - Math.exp(-delta / 58);
+  const progress = lastProgress < 0 || Math.abs(target - lastProgress) < 0.002
+    ? target : lastProgress + (target - lastProgress) * weight;
+  if (progress !== lastProgress) {
+    lastProgress = progress;
+    model.render(progress);
+  }
+  lastTime = progress === target ? 0 : time;
+  if (progress !== target) schedule();
   const stage = buttons[progress < 0.36 ? 0 : progress < 0.8 ? 1 : 2];
   if (stage === activeButton) return;
   activeButton?.setAttribute('aria-pressed', 'false');
@@ -80,6 +88,7 @@ new IntersectionObserver(([entry]) => {
 
 new IntersectionObserver(([entry]) => {
   onScreen = entry.isIntersecting;
+  if (!onScreen) lastTime = 0;
   schedule();
 }).observe(section);
 

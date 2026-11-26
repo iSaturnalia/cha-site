@@ -62,3 +62,46 @@
   .ritual.is-enhanced .ritual-track { min-height: auto; }
   .ritual.is-enhanced .ritual-panel { position: static; min-height: auto; }
 }
+
+.hero-teapot {
+  position: absolute;
+  inset: 2% 1.5% 2% auto;
+  width: 54%;
+  z-index: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+.hero-teapot::before {
+  content: '';
+  position: absolute;
+  inset: -10% -15%;
+  background: radial-gradient(ellipse at 47% 46%, #2f1913e8 0%, #342018ba 25%, #26171259 46%, transparent 66%);
+}
+.hero-teapot-motion {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: var(--pot-opacity, 1);
+  transform: translate3d(var(--pot-x, 0), var(--pot-y, 0), 0) scale(var(--pot-scale, 1));
+  will-change: transform, opacity;
+}
+.hero-teapot-poster,
+.hero-teapot-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero-teapot-poster { object-fit: contain; }
+
+@media (max-width: 760px) {
+  .hero-copy { grid-row: 1; grid-column: 1; }
+  .hero-photo { grid-row: 2; grid-column: 1; }
+  .hero-teapot { position: relative; inset: auto; grid-row: 2; grid-column: 1; width: 100%; align-self: stretch; }
+  .hero-teapot::before { inset: -6% -3%; }
+  .hero-teapot-motion { opacity: calc(var(--pot-opacity, 1) * .98); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-teapot-motion { opacity: 1; transform: none; will-change: auto; }
+}

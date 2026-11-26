@@ -52,10 +52,10 @@ function curvedTube(curve, radiusAt, segments, sides) {
   geometry.setAttribute('normal', new THREE.BufferAttribute(normals, 3));
   geometry.setAttribute('uv', new THREE.BufferAttribute(uvs, 2));
 
-  function reshape(path, thickness, length = 1) {
+  function reshape(path, thickness, far = 1, near = 0) {
     for (let i = 0; i <= segments; i += 1) {
       const along = i / segments;
-      const t = along * length;
+      const t = MathUtils.lerp(near, far, along);
       const point = path.getPoint(t);
       cross.crossVectors(forward, path.getTangent(t)).normalize();
       const radius = thickness(along);
@@ -194,7 +194,7 @@ function ground(scene) {
   scene.add(shadow);
 }
 
-export function createTeaScene(canvas) {
+function createStage(canvas) {
   const gl = canvas.getContext('webgl2', { antialias: true, alpha: true });
   if (!gl) throw new Error('WebGL 2 is unavailable');
   const renderer = new THREE.WebGLRenderer({ canvas, context: gl, antialias: true, alpha: true });
@@ -212,7 +212,41 @@ export function createTeaScene(canvas) {
   const fill = new THREE.DirectionalLight(0xf4e8d6, 0.62);
   fill.position.set(4, 1, 5);
   scene.add(key, rim, fill);
+  return { renderer, scene, camera };
+}
 
+function sizeStage(renderer, camera, width, height, minHalfWidth, minHalfHeight) {
+  const aspect = width / height;
+  const halfWidth = Math.max(minHalfWidth, minHalfHeight * aspect);
+  const halfHeight = halfWidth / aspect;
+  Object.assign(camera, { left: -halfWidth, right: halfWidth, top: halfHeight, bottom: -halfHeight });
+  camera.updateProjectionMatrix();
+  renderer.setSize(width, height, false);
+}
+
+export function createHeroTeapot(canvas) {
+  const { renderer, scene, camera } = createStage(canvas);
+  const materials = ceramicDetails(clayTexture());
+  materials.clay.clearcoat = 0.32;
+  const { group } = teapot(materials);
+  scene.add(group);
+  camera.position.set(1.3, 2.0, 8.1);
+  camera.lookAt(0, 0.75, 0);
+
+  return {
+    resize(width, height) {
+      sizeStage(renderer, camera, width, height, 2.04, 1.32);
+    },
+    render(progress, leanX = 0, leanY = 0) {
+      group.rotation.set(0.04 + leanY * 0.15 + progress * 0.2, -0.08 + leanX * 0.38 + progress * 0.86, -0.13 - progress * 0.34);
+      group.position.set(0, -0.035 - progress * 0.12, 0);
+      renderer.render(scene, camera);
+    },
+  };
+}
+
+export function createTeaScene(canvas) {
+  const { renderer, scene, camera } = createStage(canvas);
   ground(scene);
   const materials = ceramicDetails(clayTexture());
   const pot = teapot(materials);
@@ -246,19 +280,20 @@ export function createTeaScene(canvas) {
   const stream = new THREE.Mesh(shape.geometry, tea);
   stream.frustumCulled = false;
   scene.add(stream);
+  const dropGeometry = new THREE.SphereGeometry(0.029, 12, 8);
+  const droplets = Array.from({ length: 3 }, () => {
+    const drop = new THREE.Mesh(dropGeometry, tea);
+    scene.add(drop);
+    return drop;
+  });
 
   return {
     resize(width, height) {
-      const aspect = width / height;
-      const halfWidth = Math.max(3.2, 1.82 * aspect);
-      const halfHeight = halfWidth / aspect;
-      Object.assign(camera, { left: -halfWidth, right: halfWidth, top: halfHeight, bottom: -halfHeight });
-      camera.updateProjectionMatrix();
-      renderer.setSize(width, height, false);
+      sizeStage(renderer, camera, width, height, 3.2, 1.82);
     },
     render(progress) {
-      const lifted = ease(progress, 0.02, 0.34) * (1 - ease(progress, 0.78, 1));
-      const tipped = ease(progress, 0.19, 0.4) * (1 - ease(progress, 0.72, 0.94));
+      const lifted = ease(progress, 0.025, 0.33) * (1 - ease(progress, 0.815, 1));
+      const tipped = ease(progress, 0.16, 0.39) * (1 - ease(progress, 0.64, 0.89));
       pot.group.position.set(-1.29 - 0.20 * lifted, 0.045 + 1.01 * lifted, -0.16);
       pot.group.rotation.z = -0.54 * tipped;
       pot.group.rotation.y = -0.06 + 0.2 * tipped;
@@ -277,9 +312,19 @@ export function createTeaScene(canvas) {
       middle.y += 0.08;
       middle.z += (end.z - start.z) * 0.62;
       const reach = ease(progress, 0.31, 0.455);
-      const cutoff = 1 - ease(progress, 0.715, 0.81);
-      stream.visible = reach > 0.012 && cutoff > 0.012;
-      if (stream.visible) shape.reshape(trajectory, (t) => radius(t) * cutoff, reach);
+      const tail = ease(progress, 0.707, 0.83);
+      const flow = 0.98 - ease(progress, 0.66, 0.79) * 0.68;
+      stream.visible = reach > 0.012 && reach - tail > 0.015;
+      if (stream.visible) {
+        shape.reshape(trajectory, (t) => radius(t) * flow, reach, tail);
+      }
+      for (const [index, drop] of droplets.entries()) {
+        const fall = (progress - 0.736 - index * 0.029) / 0.083;
+        drop.visible = fall > 0 && fall < 1;
+        if (!drop.visible) continue;
+        trajectory.getPoint(fall * fall, drop.position);
+        drop.scale.setScalar(1 - index * 0.16);
+      }
 
       const strength = ease(progress, 0.415, 0.5) * (1 - ease(progress, 0.83, 0.995));
       for (const [index, ripple] of rings.entries()) {
@@ -287,7 +332,7 @@ export function createTeaScene(canvas) {
         ripple.visible = strength > 0.005;
         ripple.position.y = liquidHeight + 0.006 + index * 0.001;
         ripple.scale.setScalar(Math.max(0.006, phase * liquidRadius * 0.98));
-        ripple.material.opacity = (1 - phase) * strength * 0.64;
+        ripple.material.opacity = Math.sin(Math.PI * phase) * (1 - phase * 0.42) * strength * 0.62;
       }
 
       camera.position.set(MathUtils.lerp(2.05, 2.80, progress), 3.55 + 0.85 * progress, 8.8);
