@@ -1,0 +1,64 @@
+.ritual {
+  color: var(--paper);
+  background: #1b1410;
+  background: radial-gradient(ellipse at 79% 49%, #4c291b 0, #2d1d16 35%, #1b1410 72%);
+}
+.ritual-panel {
+  min-height: min(46rem, 95svh);
+  display: grid;
+  grid-template-columns: minmax(16rem, .65fr) minmax(0, 1.35fr);
+  gap: clamp(1rem, 2.8vw, 3rem);
+  align-items: center;
+  padding-block: clamp(2.5rem, 6vw, 6rem);
+}
+.ritual.is-enhanced .ritual-track { min-height: calc(100svh + clamp(18rem, 62svh, 37rem)); }
+.ritual.is-enhanced .ritual-panel { position: sticky; top: 0; min-height: 100svh; padding-block: 1.5rem; }
+.ritual-copy { position: relative; z-index: 1; }
+.ritual-copy h2 { font-size: clamp(2.7rem, 5.6vw, 6rem); }
+.ritual-copy p { color: var(--soft); margin-top: .9rem; }
+.ritual-controls { display: flex; flex-wrap: wrap; gap: .55rem; margin-top: 1.2rem; }
+.ritual-controls button {
+  border: 1px solid #946c55;
+  border-radius: .65rem;
+  min-height: 2.75rem;
+  padding: .45rem .8rem;
+  color: var(--paper);
+  background: #302018;
+  font-size: .875rem;
+  font-weight: 720;
+}
+.ritual-controls button:hover { border-color: var(--amber); }
+.ritual-controls button[aria-pressed="true"] { color: var(--ink); background: var(--amber); border-color: var(--amber); }
+.ritual-skip { font-size: .88rem; margin-top: .75rem; }
+.ritual-skip:hover { color: var(--amber); }
+.ritual-visual {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.48;
+}
+.ritual-poster, .ritual-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.ritual-poster { object-fit: contain; }
+.tea-story .story-copy h2 { margin-top: 0; }
+
+@media (max-width: 760px) {
+  .ritual-panel { min-height: auto; grid-template-columns: 1fr; gap: .5rem; }
+  .ritual.is-enhanced .ritual-panel { align-content: center; padding-block: 1.5rem; }
+  .ritual-copy h2 { font-size: clamp(2.35rem, 7.7vw, 3.75rem); }
+  .ritual-copy p { margin-top: .55rem; }
+  .ritual-controls { margin-top: .75rem; }
+  .ritual-skip { margin-top: .3rem; }
+  .ritual-visual { aspect-ratio: 1.25; }
+}
+@media (max-height: 580px) and (orientation: landscape) {
+  .ritual.is-enhanced .ritual-panel { grid-template-columns: minmax(14rem, .8fr) minmax(0, 1.2fr); }
+  .ritual-visual { max-height: 78svh; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ritual.is-enhanced .ritual-track { min-height: auto; }
+  .ritual.is-enhanced .ritual-panel { position: static; min-height: auto; }
+}

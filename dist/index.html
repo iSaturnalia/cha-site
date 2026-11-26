@@ -8,14 +8,16 @@
   <title>Чайная «Ча» — чай, еда, разговоры</title>
   <link rel="icon" href="./assets/cha-logo.png">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./tea-ritual.css">
   <script src="./home.js" type="module"></script>
+  <script src="./tea-ritual.js" type="module"></script>
 </head>
 <body class="home">
   <a class="skip" href="#main">К содержанию</a>
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="./" aria-label="Чайная Ча, главная"><img class="brand-mark" src="./assets/cha-logo.png" width="128" height="128" alt=""><small>Чайная «Ча»<br>Астрахань</small></a>
-      <nav aria-label="Основная навигация"><a href="./menu/">Меню</a><a href="#tea">Чайные церемонии</a><a href="#visit">Как найти</a></nav>
+      <nav aria-label="Основная навигация"><a href="./menu/">Меню</a><a href="#ritual">Чайные церемонии</a><a href="#visit">Как найти</a></nav>
       <a class="button button-outline header-book" href="tel:+78512298686">Позвонить</a>
     </div>
   </header>
@@ -44,11 +46,32 @@
       </div>
     </section>
 
+    <section class="ritual" id="ritual" aria-labelledby="ritual-title">
+      <div class="ritual-track">
+        <div class="ritual-panel wrap">
+          <div class="ritual-copy">
+            <h2 id="ritual-title">От чайника<br> до пиалы</h2>
+            <p class="ritual-instruction" hidden>Листайте или выбирайте этап.</p>
+            <p class="ritual-fallback-copy">Посмотрите, как заваривают чай в «Ча».</p>
+            <div class="ritual-controls" role="group" aria-label="Этапы чайного пролива" hidden>
+              <button type="button" data-progress="0.22" aria-pressed="true">Поднять</button>
+              <button type="button" data-progress="0.55" aria-pressed="false">Налить</button>
+              <button type="button" data-progress="0.98" aria-pressed="false">Готово</button>
+            </div>
+            <a class="ritual-skip text-link" href="#tea">К видео церемонии</a>
+          </div>
+          <div class="ritual-visual" aria-hidden="true">
+            <img class="ritual-poster" src="./assets/tea-still.webp" alt="" width="960" height="620" loading="lazy">
+            <canvas class="ritual-canvas" hidden></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="tea-story" id="tea" aria-labelledby="tea-title">
       <div class="wrap story-grid">
         <div class="story-copy">
-          <p class="kicker">Чайные церемонии</p>
-          <h2 id="tea-title">Как заваривают<br>чай в «Ча»</h2>
+          <h2 id="tea-title">Чайные церемонии<br>в «Ча»</h2>
           <p>Китайский чай раскрывается с каждым проливом. В чайной карте есть пуэры, улуны, белые, зелёные и красные чаи. Про чайную церемонию можно узнать по телефону.</p>
           <div class="actions"><a class="button button-amber" href="./menu/?section=tea">Смотреть чайную карту</a><a class="button button-outline" href="tel:+78512298686">Позвонить</a></div>
         </div>
