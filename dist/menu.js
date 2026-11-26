@@ -9,12 +9,19 @@ const results = document.querySelector('#menu-results');
 const status = document.querySelector('.menu-status');
 const index = document.querySelector('.section-index');
 const links = document.querySelector('#section-links');
+const quickSections = document.querySelector('.quick-sections');
 const select = document.querySelector('#jump-select');
 const dialog = document.querySelector('#dish-dialog');
 const picture = document.querySelector('#dish-picture');
 
 const itemCount = new Intl.PluralRules('ru');
 const countLabels = { one: 'позиция', few: 'позиции', many: 'позиций', other: 'позиций' };
+const kitchenShortcuts = new Map([
+  ['завтраки', 'Завтраки'],
+  ['супы', 'Супы'],
+  ['холодные роллы', 'Роллы'],
+  ['бизнес ланч', 'Бизнес-ланч'],
+]);
 
 function normalize(value) {
   return value.toLocaleLowerCase('ru').replaceAll('ё', 'е').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
@@ -51,19 +58,39 @@ function photo(item, className) {
   return img;
 }
 
+function appendPricing(container, item) {
+  if (item.portion === '0.5 / 1.5' && item.prices_rub?.length === 2) {
+    const options = element('span', '', 'dish-price-options');
+    const portions = ['0,5 л', '1,5 л'];
+    for (const [index, price] of item.prices_rub.entries()) {
+      options.append(element('span', `${portions[index]} — ${priceText({ prices_rub: [price] })}`, 'dish-price'));
+    }
+    container.append(options);
+    return;
+  }
+  const portion = portionText(item);
+  const price = priceText(item);
+  if (portion) container.append(element('span', portion, 'dish-meta'));
+  if (price) container.append(element('span', price, 'dish-price'));
+}
+
+function teaUsesDescription(item) {
+  return item.section.group === 'tea' && (!item.photo?.file || item.photo.quality === 'thumbnail');
+}
+
 function dishRow(item) {
   const listItem = element('li');
   const button = element('button', '', 'dish-row');
   button.type = 'button';
   button.dataset.item = item.id;
   button.setAttribute('aria-haspopup', 'dialog');
-  button.append(photo(item, 'dish-thumb') ?? element('span', '', 'dish-thumb'));
+  const useDescription = teaUsesDescription(item);
+  if (useDescription) button.classList.add('dish-row-text');
+  else button.append(photo(item, 'dish-thumb') ?? element('span', '', 'dish-thumb'));
   const details = element('span', '', 'dish-line');
   details.append(element('strong', itemName(item)));
-  const portion = portionText(item);
-  if (portion) details.append(element('span', portion, 'dish-meta'));
-  const price = priceText(item);
-  if (price) details.append(element('span', price, 'dish-price'));
+  if (useDescription && item.description) details.append(element('span', item.description, 'dish-meta dish-tasting'));
+  appendPricing(details, item);
   button.append(details);
   listItem.append(button);
   return listItem;
@@ -74,18 +101,15 @@ function details(id) {
   if (!item) return;
   document.querySelector('#dish-title').textContent = itemName(item);
   document.querySelector('#dish-category').textContent = item.section.label;
-  for (const [field, value] of Object.entries({
-    description: item.description,
-    portion: portionText(item),
-    price: priceText(item),
-  })) {
-    const node = document.querySelector(`#dish-${field}`);
-    node.textContent = value || '';
-    node.hidden = !value;
-  }
+  const description = document.querySelector('#dish-description');
+  description.textContent = item.description || '';
+  description.hidden = !item.description;
+  const pricing = document.querySelector('#dish-pricing');
+  pricing.replaceChildren();
+  appendPricing(pricing, item);
   picture.replaceChildren();
   const thumbnail = item.photo?.quality === 'thumbnail';
-  const image = photo(item, thumbnail ? 'detail-thumbnail' : '');
+  const image = teaUsesDescription(item) ? null : photo(item, thumbnail ? 'detail-thumbnail' : '');
   if (image) {
     image.loading = 'eager';
     image.alt = itemName(item);
@@ -102,10 +126,11 @@ function details(id) {
   dialog.showModal();
 }
 
-function updateUrl(group) {
+function updateUrl(group, { clearSection = false } = {}) {
   const next = new URL(location.href);
   next.searchParams.set('section', group);
   next.searchParams.delete('item');
+  if (clearSection && /^#section-\d+$/.test(next.hash)) next.hash = '';
   history.replaceState(null, '', next);
 }
 
@@ -147,6 +172,18 @@ function render() {
   observeFlow(results, { animateVisible: false });
   links.replaceChildren(linksFragment);
   select.replaceChildren(new Option('Выбрать подраздел', ''), optionsFragment);
+  quickSections.replaceChildren();
+  if (!searching && group === 'kitchen') {
+    const sectionsByName = new Map(visible.map((section) => [normalize(section.label), section]));
+    for (const [name, label] of kitchenShortcuts) {
+      const section = sectionsByName.get(name);
+      if (!section) continue;
+      const link = element('a', label);
+      link.href = `#${section.id}`;
+      quickSections.append(link);
+    }
+  }
+  quickSections.hidden = !quickSections.childElementCount;
   index.hidden = visible.length < 2;
 }
 
@@ -187,7 +224,7 @@ async function start() {
       event.preventDefault();
       search.value = '';
       group = tab.dataset.group;
-      updateUrl(group);
+      updateUrl(group, { clearSection: true });
       render();
       if (document.querySelector('.menu-nav').getBoundingClientRect().top <= 0) {
         document.querySelector('.catalog-body').scrollIntoView({ block: 'start', behavior: 'instant' });

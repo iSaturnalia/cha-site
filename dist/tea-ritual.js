@@ -57,11 +57,12 @@ function setEnhanced(enhanced) {
 }
 
 async function enhance() {
-  if (reducedMotion.matches || loading || model) return;
+  if (reducedMotion.matches || loading || model || section.getBoundingClientRect().bottom <= 0) return;
   loading = true;
   try {
     const { createTeaScene } = await import('./tea-scene.js');
-    if (reducedMotion.matches) return;
+    // A direct link or a fast scroll can move past the scene while its module loads.
+    if (reducedMotion.matches || section.getBoundingClientRect().bottom <= 0) return;
     model = createTeaScene(canvas);
     setEnhanced(true);
   } catch {
@@ -77,7 +78,8 @@ new IntersectionObserver(([entry]) => {
 
 new IntersectionObserver(([entry]) => {
   onScreen = entry.isIntersecting;
-  if (!onScreen) lastTime = 0;
+  if (onScreen) enhance();
+  else lastTime = 0;
   schedule();
 }).observe(section);
 

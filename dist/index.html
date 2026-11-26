@@ -19,7 +19,7 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="./" aria-label="Чайная Ча, главная"><img class="brand-mark" src="./assets/cha-logo.png" width="128" height="128" alt=""><small>Чайная «Ча»<br>Астрахань</small></a>
-      <nav aria-label="Основная навигация"><a href="./menu/">Меню</a><a href="#ritual">Чайные церемонии</a><a href="#visit">Как найти</a></nav>
+      <nav aria-label="Основная навигация"><a href="./menu/">Меню</a><a href="#tea" aria-label="Чайные церемонии"><span class="ceremony-label">Чайные церемонии</span><span class="ceremony-label-short">Церемонии</span></a><a href="#visit">Как найти</a></nav>
       <a class="button button-outline header-book" href="tel:+78512298686">Позвонить</a>
     </div>
   </header>
@@ -28,7 +28,7 @@
       <div class="hero-copy" data-flow="intro">
         <h1 id="hero-title">Чай, еда,<br>разговоры.</h1>
         <p class="hero-description">Китайский чай, чайные церемонии и паназиатская халяль-кухня в центре Астрахани.</p>
-        <div class="actions"><a class="button button-amber" href="./menu/">Смотреть меню</a><a class="button button-outline" href="tel:+78512298686">Забронировать стол</a></div>
+        <div class="actions"><a class="button button-amber" href="./menu/">Смотреть меню</a><a class="button button-outline" href="tel:+78512298686">Позвонить и забронировать</a></div>
         <a class="hero-address" href="#visit">Ульяновых, 1 <span>·</span> Ежедневно 10:00–02:00</a>
       </div>
       <figure class="hero-photo">
@@ -61,7 +61,7 @@
             <div class="ritual-copy">
               <h2 id="ritual-title">От чайника<br> до пиалы</h2>
               <p class="ritual-instruction" hidden>Прокрутите, чтобы увидеть пролив.</p>
-              <a class="ritual-skip text-link" href="#tea">К видео церемонии</a>
+              <a class="ritual-skip text-link" href="#tea">О чайных церемониях</a>
             </div>
             <div class="ritual-visual" aria-hidden="true">
               <img class="ritual-poster" src="./assets/tea-still.webp" alt="" width="960" height="620" loading="lazy">
@@ -75,12 +75,13 @@
 
     <section class="tea-story" id="tea" aria-labelledby="tea-title">
       <div class="wrap story-grid">
-        <div class="story-copy" data-flow>
+        <div class="story-copy">
           <h2 id="tea-title">Чайные церемонии<br>в «Ча»</h2>
-          <p>Китайский чай раскрывается с каждым проливом. В чайной карте есть пуэры, улуны, белые, зелёные и красные чаи. Про чайную церемонию можно узнать по телефону.</p>
-          <div class="actions"><a class="button button-amber" href="./menu/?section=tea">Смотреть чайную карту</a><a class="button button-outline" href="tel:+78512298686">Позвонить</a></div>
+          <p>Китайский чай раскрывается с каждым проливом. В чайной карте есть пуэры, улуны, белые, зелёные и красные чаи.</p>
+          <p class="ceremony-note">По телефону можно уточнить стоимость, длительность, число гостей и нужна ли предварительная запись.</p>
+          <div class="actions"><a class="button button-amber" href="tel:+78512298686">Узнать о церемонии по телефону</a><a class="button button-outline" href="./menu/?section=tea">Смотреть чайную карту</a></div>
         </div>
-        <a class="video-preview" data-flow data-flow-delay="105" href="https://2gis.ru/astrakhan/gallery/firm/70000001048365224/photoId/30258560246904112" target="_blank" rel="noopener" aria-label="Смотреть видео о чае в 2ГИС, откроется в новой вкладке">
+        <a class="video-preview" href="https://2gis.ru/astrakhan/gallery/firm/70000001048365224/photoId/30258560246904112" target="_blank" rel="noopener" aria-label="Смотреть видео о чае в 2ГИС, откроется в новой вкладке">
           <img src="./assets/tea-video-poster.webp" width="202" height="360" alt="" loading="lazy">
           <span class="video-play" aria-hidden="true"></span><span class="video-label">Смотреть в 2ГИС</span>
         </a>
@@ -98,13 +99,14 @@
     </section>
 
     <section class="visit wrap section-pad" id="visit" aria-labelledby="visit-title">
-      <img data-flow src="./assets/staircase.webp" width="1587" height="1060" alt="Лестница в чайной «Ча» с тёплой подсветкой и растениями" loading="lazy">
-      <div data-flow data-flow-delay="85">
+      <img src="./assets/staircase.webp" width="1587" height="1060" alt="Лестница в чайной «Ча» с тёплой подсветкой и растениями" loading="lazy">
+      <div>
         <p class="kicker">Чайная «Ча» · Астрахань</p>
         <h2 id="visit-title">Как нас найти</h2>
-        <address>Улица Ульяновых, 1, Астрахань<br>Ежедневно с 10:00 до 02:00</address>
+        <address>Улица Ульяновых, 1, Астрахань · 1&nbsp;этаж<br>Ежедневно с 10:00 до 02:00</address>
         <p><a class="text-link" href="tel:+78512298686">+7 (8512) 29-86-86</a></p>
         <div class="actions"><a class="button button-amber" href="https://2gis.ru/astrakhan/directions/points/%7C48.033896%2C46.354485%3B70000001048365224" target="_blank" rel="noopener">Маршрут в 2ГИС</a></div>
+        <p class="entrance-note">В <a href="https://2gis.ru/astrakhan/firm/70000001048365224" target="_blank" rel="noopener">карточке «Ча» в 2ГИС</a> нажмите «Показать вход».</p>
       </div>
     </section>
   </main>
