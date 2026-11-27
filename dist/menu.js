@@ -1,3 +1,4 @@
+import './button-feedback.js';
 import { asset, itemName, loadMenu, portionText, priceText } from './menu-data.js';
 
 const tabs = [...document.querySelectorAll('.menu-tabs a')];
