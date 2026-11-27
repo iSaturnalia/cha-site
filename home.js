@@ -1,4 +1,4 @@
-import './flow.js';
+import './button-feedback.js';
 import { asset, itemName, loadMenu, priceText } from './menu-data.js';
 
 const featured = {
