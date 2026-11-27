@@ -129,8 +129,8 @@ p + p { margin-top: 1em; }
 .site-header { position: relative; z-index: 5; border-bottom: 1px solid var(--rule); background: var(--paper); }
 .header-inner { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; min-height: 76px; gap: 1.5rem; }
 .header-inner > .button { justify-self: end; }
-.brand { display: inline-flex; justify-self: start; mix-blend-mode: multiply; }
-.brand-mark { width: 3.35rem; height: 3.35rem; object-fit: contain; filter: invert(1); }
+.brand { display: inline-flex; justify-self: start; }
+.brand-mark { width: 3.35rem; height: 3.35rem; object-fit: contain; }
 .header-inner nav, .footer-inner nav { display: flex; gap: clamp(1rem, 3vw, 3.25rem); align-items: center; }
 .header-inner nav a { display: grid; place-items: center; min-height: 44px; font-size: .9rem; font-weight: 800; white-space: nowrap; }
 .header-inner nav a:hover, .header-inner nav a[aria-current] { color: var(--red); }
@@ -259,8 +259,6 @@ p + p { margin-top: 1em; }
 .site-footer { background: var(--ink); color: var(--paper); }
 .footer-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 1.4rem; padding-block: 1.25rem; }
 .footer-inner a { display: inline-flex; align-items: center; min-height: 44px; }
-.site-footer .brand { mix-blend-mode: screen; }
-.site-footer .brand-mark { filter: none; }
 
 .menu-intro { display: flex; justify-content: space-between; align-items: end; gap: var(--gap); padding-block: clamp(1.75rem, 5vw, 4rem) 1.5rem; }
 .menu-intro h1 { font-size: clamp(3.5rem, 8vw, 6rem); }
