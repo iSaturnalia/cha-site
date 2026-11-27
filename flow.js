@@ -15,12 +15,13 @@ const observer = 'IntersectionObserver' in window && 'animate' in Element.protot
   : null;
 
 function reveal(element) {
+  element.classList.add('is-visible');
   const intro = element.dataset.flow === 'intro';
   const delay = Math.min(Number(element.dataset.flowDelay) || 0, 200);
   const animation = element.animate([
-    { opacity: intro ? 0.64 : 0.26, transform: `translateY(${intro ? 16 : 27}px)` },
+    { opacity: intro ? 0.64 : 0.68, transform: `translateY(${intro ? 16 : 14}px)` },
     { opacity: 1, transform: 'translateY(0)' },
-  ], { duration: intro ? 510 : 680, delay, easing: 'cubic-bezier(0.22, 0.77, 0.24, 1)', fill: 'backwards' });
+  ], { duration: intro ? 510 : 575, delay, easing: 'cubic-bezier(0.22, 0.77, 0.24, 1)', fill: 'backwards' });
   playing.set(element, animation);
   animation.finished.catch(() => {}).finally(() => playing.delete(element));
 }

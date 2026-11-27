@@ -1,4 +1,3 @@
-import { observeFlow } from './flow.js';
 import { asset, itemName, loadMenu, portionText, priceText } from './menu-data.js';
 
 const tabs = [...document.querySelectorAll('.menu-tabs a')];
@@ -9,20 +8,13 @@ const results = document.querySelector('#menu-results');
 const status = document.querySelector('.menu-status');
 const index = document.querySelector('.section-index');
 const links = document.querySelector('#section-links');
-const quickSections = document.querySelector('.quick-sections');
-const select = document.querySelector('#jump-select');
+const notes = document.querySelector('.menu-notes');
+const menuNav = document.querySelector('.menu-nav');
 const dialog = document.querySelector('#dish-dialog');
 const picture = document.querySelector('#dish-picture');
 
 const itemCount = new Intl.PluralRules('ru');
 const countLabels = { one: 'позиция', few: 'позиции', many: 'позиций', other: 'позиций' };
-const kitchenShortcuts = new Map([
-  ['завтраки', 'Завтраки'],
-  ['супы', 'Супы'],
-  ['холодные роллы', 'Роллы'],
-  ['бизнес ланч', 'Бизнес-ланч'],
-]);
-
 function normalize(value) {
   return value.toLocaleLowerCase('ru').replaceAll('ё', 'е').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 }
@@ -78,21 +70,29 @@ function teaUsesDescription(item) {
   return item.section.group === 'tea' && (!item.photo?.file || item.photo.quality === 'thumbnail');
 }
 
-function dishRow(item) {
+function dishCard(item) {
   const listItem = element('li');
-  const button = element('button', '', 'dish-row');
-  button.type = 'button';
-  button.dataset.item = item.id;
-  button.setAttribute('aria-haspopup', 'dialog');
-  const useDescription = teaUsesDescription(item);
-  if (useDescription) button.classList.add('dish-row-text');
-  else button.append(photo(item, 'dish-thumb') ?? element('span', '', 'dish-thumb'));
-  const details = element('span', '', 'dish-line');
-  details.append(element('strong', itemName(item)));
-  if (useDescription && item.description) details.append(element('span', item.description, 'dish-meta dish-tasting'));
-  appendPricing(details, item);
-  button.append(details);
-  listItem.append(button);
+  const card = element('article', '', 'dish-card');
+  const image = teaUsesDescription(item) ? null : photo(item, 'dish-thumb');
+  if (image) {
+    const frame = element('div', '', 'dish-photo');
+    frame.append(image);
+    card.append(frame);
+  }
+  const copy = element('div', '', 'dish-details');
+  const heading = element('h3');
+  const detailButton = element('button', itemName(item), 'dish-title-link');
+  detailButton.type = 'button';
+  detailButton.dataset.item = item.id;
+  detailButton.setAttribute('aria-haspopup', 'dialog');
+  heading.append(detailButton);
+  copy.append(heading);
+  if (item.description) copy.append(element('p', item.description, 'dish-description'));
+  const pricing = element('div', '', 'dish-pricing');
+  appendPricing(pricing, item);
+  copy.append(pricing);
+  card.append(copy);
+  listItem.append(card);
   return listItem;
 }
 
@@ -153,38 +153,64 @@ function render() {
   }
   const sectionsFragment = document.createDocumentFragment();
   const linksFragment = document.createDocumentFragment();
-  const optionsFragment = document.createDocumentFragment();
   for (const section of visible) {
     const heading = element('section', '', 'menu-section');
     heading.id = section.id;
-    heading.setAttribute('data-flow', '');
     heading.append(element('h2', section.label));
     const list = element('ul', '', 'dish-list');
-    list.append(...section.items.map(dishRow));
+    list.append(...section.items.map(dishCard));
     heading.append(list);
     sectionsFragment.append(heading);
     const link = element('a', section.label);
     link.href = `#${section.id}`;
     linksFragment.append(link);
-    optionsFragment.append(new Option(section.label, section.id));
   }
   results.replaceChildren(sectionsFragment);
-  observeFlow(results, { animateVisible: false });
   links.replaceChildren(linksFragment);
-  select.replaceChildren(new Option('Выбрать подраздел', ''), optionsFragment);
-  quickSections.replaceChildren();
-  if (!searching && group === 'kitchen') {
-    const sectionsByName = new Map(visible.map((section) => [normalize(section.label), section]));
-    for (const [name, label] of kitchenShortcuts) {
-      const section = sectionsByName.get(name);
-      if (!section) continue;
-      const link = element('a', label);
-      link.href = `#${section.id}`;
-      quickSections.append(link);
-    }
-  }
-  quickSections.hidden = !quickSections.childElementCount;
   index.hidden = visible.length < 2;
+  notes.hidden = !count || !notes.childElementCount;
+
+  headings = [...results.children];
+  sectionLinks = [...links.children];
+  activeSection = -1;
+  requestSpyUpdate();
+}
+
+let headings = [];
+let sectionLinks = [];
+let activeSection = -1;
+let spyFrame = 0;
+const mobile = matchMedia('(max-width: 680px)');
+
+function updateActiveSection() {
+  spyFrame = 0;
+  if (index.hidden || !headings.length) return;
+  const railHeight = mobile.matches ? index.offsetHeight : 0;
+  const threshold = menuNav.offsetHeight + railHeight + 25;
+  let current = 0;
+  for (let position = 1; position < headings.length; position++) {
+    if (headings[position].getBoundingClientRect().top > threshold) break;
+    current = position;
+  }
+  if (current === activeSection) return;
+
+  sectionLinks[activeSection]?.removeAttribute('aria-current');
+  const active = sectionLinks[current];
+  active.setAttribute('aria-current', 'location');
+  activeSection = current;
+  const rail = links.getBoundingClientRect();
+  const target = active.getBoundingClientRect();
+  if (mobile.matches) {
+    if (target.left < rail.left || target.right > rail.right) {
+      links.scrollLeft += target.left - rail.left - (rail.width - target.width) / 2;
+    }
+  } else if (target.top < rail.top || target.bottom > rail.bottom) {
+    links.scrollTop += target.top - rail.top - (rail.height - target.height) / 2;
+  }
+}
+
+function requestSpyUpdate() {
+  if (!spyFrame) spyFrame = requestAnimationFrame(updateActiveSection);
 }
 
 let sections = [];
@@ -193,7 +219,8 @@ let group = 'kitchen';
 
 async function start() {
   const params = new URLSearchParams(location.search);
-  const { sections: menu } = await loadMenu();
+  const { sections: menu, menu_notes: menuNotes = [] } = await loadMenu();
+  notes.replaceChildren(...menuNotes.map((note) => element('p', note)));
   sections = menu.map((section, position) => {
     const record = { id: `section-${position + 1}`, label: sectionLabel(section.name), group: sectionGroup(section.name) };
     return {
@@ -217,7 +244,8 @@ async function start() {
     search.focus();
     render();
   });
-  select.addEventListener('change', () => document.getElementById(select.value)?.scrollIntoView());
+  addEventListener('scroll', requestSpyUpdate, { passive: true });
+  addEventListener('resize', requestSpyUpdate, { passive: true });
   for (const tab of tabs) {
     tab.addEventListener('click', (event) => {
       if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
@@ -226,7 +254,7 @@ async function start() {
       group = tab.dataset.group;
       updateUrl(group, { clearSection: true });
       render();
-      if (document.querySelector('.menu-nav').getBoundingClientRect().top <= 0) {
+      if (menuNav.getBoundingClientRect().top <= 0) {
         document.querySelector('.catalog-body').scrollIntoView({ block: 'start', behavior: 'instant' });
       }
     });
@@ -251,5 +279,7 @@ start().catch(() => {
   status.textContent = 'Не удалось загрузить меню. ';
   const retry = element('a', 'Обновить страницу', 'text-link');
   retry.href = location.href;
-  status.append(retry);
+  const original = element('a', 'Открыть меню чайной', 'text-link');
+  original.href = 'https://cha-astra.ru/cha_astr';
+  status.append(retry, ' · ', original);
 });
